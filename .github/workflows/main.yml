@@ -28,6 +28,8 @@ jobs:
           renv::consent(provided = TRUE)
           renv::restore()
           source('script.R')
+          install.packages('reticulate')
+          library(reticulate)
           rmarkdown::render('presentations/ioslides.Rmd', envir = env)
         shell: Rscript {0}
       - name: Commit and push files
