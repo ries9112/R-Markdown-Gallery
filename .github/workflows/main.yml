@@ -28,7 +28,7 @@ jobs:
           renv::consent(provided = TRUE)
           renv::restore()
           source('script.R')
-          install.packages('reticulate')
+          remotes::install_github('rstudio/reticulate')
           library(reticulate)
           rmarkdown::render('presentations/ioslides.Rmd', envir = env)
         shell: Rscript {0}
