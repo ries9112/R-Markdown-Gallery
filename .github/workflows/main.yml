@@ -9,6 +9,10 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
         with:
           r-version: '4.0.3'
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
       - name: Cache R packages
         uses: actions/cache@v2
         with:
@@ -25,15 +29,6 @@ jobs:
           source('script.R')
           install.packages('reticulate')
           library(reticulate)
-          conda_create("r-reticulate")
-          conda_install("r-reticulate", "pandas")
-        shell: Rscript {0}
-      - name: Add step before pandas install
-        run: |
-          sudo chown -R $USER:$USER anaconda 3
-      - name: Install pandas and render R Mardkown
-        run: |
-          reticulate::py_install('pandas')
           rmarkdown::render('presentations/ioslides.Rmd', envir = env)
         shell: Rscript {0}
       - name: Commit and push files
