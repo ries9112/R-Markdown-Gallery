@@ -5,7 +5,9 @@ p_load('pins','tidyverse','ggforce','gganimate','ggthemes','ggpubr','plotly')
 # Pull data
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
 # Only keep main cryptocurrencies
-cryptodata <- filter(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"), symbol == 'ETH')
+cryptodata <- select(filter(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"), 
+                            symbol == 'ETH'),
+                     pair, symbol, ask_1_price, date_time_utc)
 
 # Make chart
 crypto_chart <- ggplot(data = cryptodata, 
