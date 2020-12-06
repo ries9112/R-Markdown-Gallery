@@ -1,0 +1,20 @@
+---
+title: "Example Presentation"
+output: ioslides_presentation
+---
+
+## Price Chart
+
+```{r}
+crypto_chart
+```
+
+
+## Interactive Chart
+
+```{r}
+interactive_chart
+```
+
+
+

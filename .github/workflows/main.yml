@@ -1,0 +1,37 @@
+name: Run R Markdown Examples
+on: [push]
+
+jobs:
+  build:
+    runs-on: macOS-10.15
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: '4.0.3'
+          crayon.enabled: 'FALSE'
+      - uses: r-lib/actions/setup-pandoc@v1
+      - uses: r-lib/actions/setup-tinytex@v1
+      - name: Cache R packages
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-r-${{ matrix.config.r }}-3-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-r-${{ matrix.config.r }}-3-
+      - name: Install Packages
+        run: |-
+          Rscript -e "install.packages('rmarkdown')"
+          Rscript -e "install.packages('pacman')"
+          Rscript -e "source('script.R')"
+          Rscript -e "rmarkdown::render('presentations/ioslides.Rmd')"
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: test_script_tutorial.html
+      - name: Commit and push files
+        run: |
+          git config --local user.email "ries9112@colorado.edu"
+          git config --local user.name "ries9112"
+          git add .
+          git commit -m "Refresh R Markdown examples from CI automated process" -a
+          git push https://ries9112:${{secrets.GITHUB_TOKEN}}@github.com/ries9112/R-Markdown-Gallery.git HEAD:main --force
