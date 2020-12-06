@@ -5,14 +5,14 @@ output: ioslides_presentation
 
 ## Price Chart
 
-```{r}
+```{r, warning=F, message=F}
 crypto_chart
 ```
 
 
 ## Interactive Chart
 
-```{r}
+```{r, warning=F, message=F}
 interactive_chart
 ```
 

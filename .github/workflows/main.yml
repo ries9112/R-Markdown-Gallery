@@ -19,18 +19,15 @@ jobs:
           key: ${{ runner.os }}-r-${{ matrix.config.r }}-3-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-r-${{ matrix.config.r }}-3-
       - name: Run script and render documents
-        run: |-
-          Rscript -e "#install.packages('rmarkdown')"
-          Rscript -e "#install.packages('pacman')"
-          Rscript -e "install.packages('renv')"
-          Rscript -e 'renv::consent(provided = TRUE)'
-          Rscript -e "renv::restore()"
-          Rscript -e "source('script.R')"
-          Rscript -e "rmarkdown::render('presentations/ioslides.Rmd', envir = env)"
-      - uses: actions/upload-artifact@v2
-        with:
-          name: my-artifact
-          path: test_script_tutorial.html
+        run: |
+          #install.packages('rmarkdown')
+          #install.packages('pacman')
+          install.packages('renv')
+          renv::consent(provided = TRUE)
+          renv::restore()
+          source('script.R')
+          rmarkdown::render('presentations/ioslides.Rmd', envir = env)
+        shell: Rscript {0}
       - name: Commit and push files
         run: |
           git config --local user.email "ries9112@colorado.edu"
