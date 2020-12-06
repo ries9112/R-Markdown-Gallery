@@ -28,7 +28,6 @@ jobs:
           source('script.R')
           install.packages('reticulate')
           reticulate::py_install('pandas')
-          reticulate::py_install('matplotlib')
           rmarkdown::render('presentations/ioslides.Rmd', envir = env)
         shell: Rscript {0}
       - name: Commit and push files

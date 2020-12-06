@@ -24,14 +24,15 @@ interactive_chart
 
 ```{python}
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # Import data from R
 df = r.cryptodata
-# Plot data through Python
-df.plot(x ='date_time_utc', y='ask_1_price', kind = 'scatter')
-# If code above fails just keep the one below instead:
-#df.dtypes
+# Show data
+df
+# Show data types
+df.dtypes
+
+# IF THIS FAILS ON GITHUB ACTIONS REMEMBER TO TRY ADDING THIS TO YAML: devtools::install_github('rstudio/reticulate')
 ```
 
 
