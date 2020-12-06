@@ -27,6 +27,12 @@ jobs:
           renv::restore()
           source('script.R')
           install.packages('reticulate')
+        shell: Rscript {0}
+      - name: Add step before pandas install
+        run: |
+          sudo chown -R $USER:$USER anaconda 3
+      - name: Install pandas and render R Mardkown
+        run: |
           reticulate::py_install('pandas')
           rmarkdown::render('presentations/ioslides.Rmd', envir = env)
         shell: Rscript {0}
