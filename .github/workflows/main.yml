@@ -24,6 +24,7 @@ jobs:
           renv::restore()
           source('script.R')
           install.packages('reticulate')
+          library(reticulate)
           conda_create("r-reticulate")
           conda_install("r-reticulate", "pandas")
           pandas <- import("pandas")
