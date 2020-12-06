@@ -18,12 +18,15 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-r-${{ matrix.config.r }}-3-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-r-${{ matrix.config.r }}-3-
-      - name: Install Packages
+      - name: Run script and render documents
         run: |-
-          Rscript -e "install.packages('rmarkdown')"
-          Rscript -e "install.packages('pacman')"
+          Rscript -e "#install.packages('rmarkdown')"
+          Rscript -e "#install.packages('pacman')"
+          Rscript -e "install.packages('renv')"
+          Rscript -e 'renv::consent(provided = TRUE)'
+          Rscript -e "renv::restore()"
           Rscript -e "source('script.R')"
-          Rscript -e "rmarkdown::render('presentations/ioslides.Rmd')"
+          Rscript -e "rmarkdown::render('presentations/ioslides.Rmd', envir = env)"
       - uses: actions/upload-artifact@v2
         with:
           name: my-artifact
