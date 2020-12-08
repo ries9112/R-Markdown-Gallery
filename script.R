@@ -1,6 +1,6 @@
 # Import packages
 library(pacman)
-p_load('pins','tidyverse','ggforce','gganimate','ggthemes','ggpubr','plotly')
+p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr','plotly')
 
 # Pull data
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
