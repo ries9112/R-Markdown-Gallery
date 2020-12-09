@@ -1,6 +1,8 @@
 # Import packages
 library(pacman)
-p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr','plotly')
+p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr','plotly','webshot')
+# install phantomJS to take screenshot
+webshot::install_phantomjs()
 
 # Pull data
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
@@ -10,6 +12,9 @@ cryptodata <- select(filter(pin_get("hitBTC_orderbooks_github", "hitBTC_orderboo
                      pair, symbol, ask_1_price, date_time_utc)
 # Arrange from latest to earliest data collected
 cryptodata <- arrange(cryptodata, desc(date_time_utc))
+
+# Take screenshot of data
+webshot("https://cryptocurrencyresearch.org/explore-data.html#data-preview", "data_preview.png")
 
 # Make chart
 crypto_chart <- ggplot(data = cryptodata, 

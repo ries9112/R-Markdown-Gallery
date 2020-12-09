@@ -21,7 +21,7 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-r-${{ matrix.config.r }}-3-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-r-${{ matrix.config.r }}-3-
-      - name: Prepare environment
+      - name: Prepare environment and run all examples
         run: |
           #install.packages('rmarkdown')
           #install.packages('pacman')
