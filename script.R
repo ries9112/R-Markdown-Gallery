@@ -39,6 +39,3 @@ crypto_chart <- crypto_chart +
                 geom_mark_ellipse(aes(filter = ask_1_price == min(ask_1_price),
                                       label = date_time_utc,
                                       description = paste0('Price drop to $', ask_1_price)))
-# Create environment
-env <- list2env(list(interactive_chart = interactive_chart,
-                     crypto_chart = crypto_chart), parent.frame())
