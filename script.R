@@ -1,23 +1,22 @@
 # Import packages
 library(pacman)
-p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr','plotly','webshot')
-# install phantomJS to take screenshot
-webshot::install_phantomjs()
+p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr','plotly')
 
 # Pull data
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
 # Only keep main cryptocurrencies
 cryptodata <- select(filter(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"), 
-                            symbol == 'ETH'),
+                            symbol == 'ETH' | symbol == 'BTC'),
                      pair, symbol, ask_1_price, date_time_utc)
-# Arrange from latest to earliest data collected
-cryptodata <- arrange(cryptodata, desc(date_time_utc))
+# Create one dataset for ETH and one for BTC
+eth_data <- filter(cryptodata, symbol == 'ETH')
+btc_data <- filter(cryptodata, symbol == 'BTC')
 
-# Take screenshot of data
-webshot("https://cryptocurrencyresearch.org/explore-data.html#data-preview", "data_preview.png")
+# Arrange from latest to earliest data collected
+eth_data <- arrange(eth_data, desc(date_time_utc))
 
 # Make chart
-crypto_chart <- ggplot(data = cryptodata, 
+eth_chart <- ggplot(data = eth_data, 
                        aes(x = date_time_utc, y = ask_1_price)) + 
                 # show points as a line
                 geom_line() + 
@@ -26,16 +25,17 @@ crypto_chart <- ggplot(data = cryptodata,
                 # Add labels
                 xlab('Date Time (UTC)') +
                 ylab('Price ($)') +
-                ggtitle(paste('Price Change Over Time -', cryptodata$symbol),
+                ggtitle(paste('Price Change Over Time -', eth_data$symbol),
                         subtitle = paste('Most recent data collected on:',
-                                   max(cryptodata$date_time_utc, na.rm=T), '(UTC)')) + 
+                                   max(eth_data$date_time_utc, na.rm=T), '(UTC)')) + 
                 # Add theme
                 theme_economist()
-# make the interactive chart
-interactive_chart <- ggplotly(crypto_chart)
+
+# Make the chart interactive
+interactive_chart <- ggplotly(eth_chart)
 
 # Add additional elements
-crypto_chart <- crypto_chart + 
+eth_chart <- eth_chart + 
                 stat_cor() +
                 geom_mark_ellipse(aes(filter = ask_1_price == max(ask_1_price),
                                       label = date_time_utc,
