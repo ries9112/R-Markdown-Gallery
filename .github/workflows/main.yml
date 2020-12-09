@@ -21,7 +21,7 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-r-${{ matrix.config.r }}-3-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-r-${{ matrix.config.r }}-3-
-      - name: Run script and render documents
+      - name: Prepare environment
         run: |
           #install.packages('rmarkdown')
           #install.packages('pacman')
@@ -34,7 +34,13 @@ jobs:
           try(reticulate::install_miniconda())
           reticulate::conda_create('r-reticulate', packages = c('python==3.6.9'))
           reticulate::conda_install('r-reticulate','pandas')
+        shell: Rscript {0}
+      - name: Prepare environment
+        run: |
+          # presentations - ioslides
           rmarkdown::render('presentations/ioslides.Rmd', envir = env)
+          # documents - parallax
+          source('documents/parallax/build_parallax.R')
         shell: Rscript {0}
       - name: Commit and push files
         run: |
