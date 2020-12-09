@@ -35,7 +35,7 @@ jobs:
           reticulate::conda_create('r-reticulate', packages = c('python==3.6.9'))
           reticulate::conda_install('r-reticulate','pandas')
           # presentations - ioslides
-          rmarkdown::render('presentations/ioslides.Rmd', envir = env)
+          rmarkdown::render('presentations/ioslides.Rmd')
           # documents - parallax
           source('documents/parallax/build_parallax.R')
         shell: Rscript {0}
