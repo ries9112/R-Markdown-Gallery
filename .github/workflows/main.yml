@@ -42,7 +42,7 @@ jobs:
           rmarkdown::render('presentations/slidy.Rmd')
           # beamer prerequisites
           #install.packages("tinytex")
-          #tinytex::install_tinytex()
+          tinytex::install_tinytex()
           # presentations - beamer
           rmarkdown::render('presentations/beamer.Rmd')
           # presentations - 
