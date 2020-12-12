@@ -8,7 +8,7 @@ always_allow_html: true
 
 This document has code embedded throughout. In the next section we will create a visualization using the already loaded dataset `eth_data`:
 ```{r, warning=F, message=F}
-datatable(eth_data)
+datatable(eth_data, options = list(lengthMenu = c(3, 5, 10)))
 ```
 
 ## Price Chart
