@@ -45,6 +45,10 @@ jobs:
           #tinytex::install_tinytex()
           # presentations - beamer
           rmarkdown::render('presentations/beamer.Rmd')
+          # presentations - 
+          
+          
+          
           # documents - parallax
           source('documents/parallax/build_parallax.R')
         shell: Rscript {0}

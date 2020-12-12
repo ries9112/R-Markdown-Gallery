@@ -1,0 +1,51 @@
+---
+title: "R Markdown Output"
+output: revealjs::revealjs_presentation
+---
+
+# Overview
+
+This document has code embedded throughout. In the next section we will create a visualization using the already loaded dataset `eth_data`:
+```{r, warning=F, message=F}
+datatable(eth_data, options = list(lengthMenu = c(3, 5, 10)))
+```
+
+# Price Chart - Ethereum
+
+```{r, warning=F, message=F, echo=F}
+eth_chart
+```
+
+# Python Code Example
+
+```{python}
+import pandas as pd
+# Create the Python object from R
+df = r.cryptodata
+# Show the new Python dataframe
+df
+```
+
+Press on the ⬇️ key on your keyboard for next slide
+
+## One more Python example
+
+The code below creates a new column `price_percentile` that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower):
+
+```{python}
+import numpy as np
+# Create a new column based on the ask_1_price value:
+df['price_percentile'] = np.where(df['ask_1_price'] > 
+                                  np.percentile(df['ask_1_price'], 50),
+                            'upper 50th percentile of prices', 
+                            'lower 50th percentile of prices')
+# Show modified dataframe:
+df[['symbol', 'ask_1_price', 'price_percentile']]
+```
+
+# [Back to Gallery](https://r-markdown-gallery.org)
+
+```{r}
+include_url("https://r-markdown-gallery.org")
+```
+
