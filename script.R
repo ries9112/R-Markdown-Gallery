@@ -2,12 +2,13 @@
 library(pacman)
 p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr','plotly')
 
-# Pull data
+# Pull data - first register pins board to establish connection
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
-# Only keep main cryptocurrencies
+# Only keep main cryptocurrencies BTC and ETH
 cryptodata <- select(filter(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"), 
                             symbol == 'ETH' | symbol == 'BTC'),
                      pair, symbol, ask_1_price, date_time_utc)
+
 # Create one dataset for ETH and one for BTC
 eth_data <- filter(cryptodata, symbol == 'ETH')
 btc_data <- filter(cryptodata, symbol == 'BTC')

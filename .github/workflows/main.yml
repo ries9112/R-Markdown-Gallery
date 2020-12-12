@@ -36,6 +36,12 @@ jobs:
           reticulate::conda_install('r-reticulate','pandas')
           # presentations - ioslides
           rmarkdown::render('presentations/ioslides.Rmd')
+          # presentations - powerpoint
+          rmarkdown::render('presentations/powerpoint.Rmd')
+          # presentations - slidy
+          rmarkdown::render('presentations/slidy.Rmd')
+          # presentations - powerpoint
+          rmarkdown::render('presentations/powerpoint.Rmd')
           # documents - parallax
           source('documents/parallax/build_parallax.R')
         shell: Rscript {0}

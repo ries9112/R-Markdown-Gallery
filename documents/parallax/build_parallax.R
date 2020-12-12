@@ -1,5 +1,7 @@
+library(pacman)
 # Load package (not on CRAN yet so load from GitHub repo)
 p_load_gh("martinctc/parallaxr") 
+p_load('ggplot2')
 
 # Character vector of all MD files
 all_md_str <- list.files(path = "documents/parallax", pattern=".md", full.names = TRUE)
