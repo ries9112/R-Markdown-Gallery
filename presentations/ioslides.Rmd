@@ -5,23 +5,15 @@ output: ioslides_presentation
 
 ## Overview
 
-This document has code embedded throughout. In the next section we will create a visualization using the already loaded dataset `cryptodata`:
+This document has code embedded throughout. In the next section we will create a visualization using the already loaded dataset `eth_data`:
 ```{r, warning=F, message=F}
-datatable(eth_data, rownames = FALSE, 
-          options(list(lengthMenu = c(4, 5, 6))))
+datatable(eth_data)
 ```
 
 ## Price Chart
 
 ```{r, warning=F, message=F, echo=F}
 eth_chart
-```
-
-
-## Interactive Chart
-
-```{r, warning=F, message=F, echo=F}
-interactive_chart
 ```
 
 ## Python Code Example
@@ -41,7 +33,8 @@ Press on `w` on your keyboard to make the presentation wider. Press `f` to fulls
 ```{python}
 import numpy as np
 # Create a new field based on the ask_1_price value:
-df['price_percentile'] = np.where(df['ask_1_price'] > np.percentile(df['ask_1_price'], 50),
+df['price_percentile'] = np.where(df['ask_1_price'] > 
+                                  np.percentile(df['ask_1_price'], 50),
                             'upper 50th percentile of prices', 
                             'lower 50th percentile of prices')
 # Show modified dataframe:
@@ -49,8 +42,6 @@ df[['symbol', 'ask_1_price', 'price_percentile']]
 ```
 
 ## [Back to Gallery](https://r-markdown-gallery.org)
-
-<!-- TODO - Add note about going back to gallery -->
 
 ```{r}
 knitr::include_url("https://r-markdown-gallery.org")
