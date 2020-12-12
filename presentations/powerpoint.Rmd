@@ -1,6 +1,7 @@
 ---
 title: "Example Presentation"
 output: powerpoint_presentation
+always_allow_html: true
 ---
 
 ## Overview

@@ -42,6 +42,9 @@ jobs:
           rmarkdown::render('presentations/slidy.Rmd')
           # presentations - powerpoint
           rmarkdown::render('presentations/powerpoint.Rmd')
+          # beamer prerequisites
+          install.packages("tinytex")
+          tinytex::install_tinytex()
           # documents - parallax
           source('documents/parallax/build_parallax.R')
         shell: Rscript {0}
