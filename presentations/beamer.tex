@@ -44,13 +44,12 @@
   \frame{\subsectionpage}
 }
 \usepackage{lmodern}
-\usepackage{amsmath}
+\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -121,7 +120,7 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{graphicx}
+\usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -138,9 +137,6 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 
 \title{Example Presentation}
 \author{}
@@ -151,105 +147,108 @@
 
 \begin{frame}[fragile]{Overview}
 \protect\hypertarget{overview}{}
+
 This document has code embedded throughout. In the next section we will
 create a visualization using the already loaded dataset
-\texttt{cryptodata}:
+\texttt{eth\_data}:
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{datatable}\NormalTok{(eth\_data, }\AttributeTok{rownames =} \ConstantTok{FALSE}\NormalTok{, }
-          \FunctionTok{options}\NormalTok{(}\FunctionTok{list}\NormalTok{(}\AttributeTok{lengthMenu =} \FunctionTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{5}\NormalTok{, }\DecValTok{6}\NormalTok{))))}
+\KeywordTok{datatable}\NormalTok{(eth_data)}
 \end{Highlighting}
 \end{Shaded}
 
-\includegraphics{beamer_files/figure-beamer/unnamed-chunk-1-1.pdf}
+\hypertarget{htmlwidget-a6990b491a4ab8551b8c}{}
+
 \end{frame}
 
 \begin{frame}{Price Chart}
 \protect\hypertarget{price-chart}{}
-\includegraphics{beamer_files/figure-beamer/unnamed-chunk-2-1.pdf}
-\end{frame}
 
-\begin{frame}{Interactive Chart}
-\protect\hypertarget{interactive-chart}{}
-\includegraphics{beamer_files/figure-beamer/unnamed-chunk-3-1.pdf}
+\includegraphics{beamer_files/figure-beamer/unnamed-chunk-2-1.pdf}
+
 \end{frame}
 
 \begin{frame}[fragile]{Python Code Example}
 \protect\hypertarget{python-code-example}{}
+
 \begin{Shaded}
 \begin{Highlighting}[]
 \ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd}
-\CommentTok{\# Create the Python object from R}
+\CommentTok{# Create the Python object from R}
 \NormalTok{df }\OperatorTok{=}\NormalTok{ r.cryptodata}
-\CommentTok{\# Show the new Python dataframe}
+\CommentTok{# Show the new Python dataframe}
 \NormalTok{df}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
 ##         pair symbol  ask_1_price       date_time_utc
-## 0     BTCUSD    BTC    18037.560 2020-12-12 00:00:00
-## 1     ETHUSD    ETH      544.422 2020-12-12 00:00:01
-## 2     BTCUSD    BTC    18338.710 2020-12-12 01:00:00
-## 3     ETHUSD    ETH      555.184 2020-12-12 01:00:01
-## 4     BTCUSD    BTC    18283.790 2020-12-12 02:00:00
+## 0     BTCUSD    BTC    18371.130 2020-12-12 15:00:01
+## 1     ETHUSD    ETH      553.770 2020-12-12 15:00:01
+## 2     ETHUSD    ETH      555.539 2020-12-12 14:00:01
+## 3     BTCUSD    BTC    18400.890 2020-12-12 14:00:00
+## 4     ETHUSD    ETH      557.140 2020-12-12 13:00:01
 ## ...      ...    ...          ...                 ...
-## 5077  BTCUSD    BTC    11847.080 2020-08-10 21:03:49
-## 5078  BTCUSD    BTC    11819.920 2020-08-10 22:03:49
-## 5079  BTCUSD    BTC    11804.900 2020-08-10 23:03:54
-## 5080  BTCUSD    BTC    10686.880                 NaT
-## 5081  ETHUSD    ETH      357.844                 NaT
+## 5091  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
+## 5092  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
+## 5093  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
+## 5094  BTCUSD    BTC    10686.880                 NaT
+## 5095  ETHUSD    ETH      357.844                 NaT
 ## 
-## [5082 rows x 4 columns]
+## [5096 rows x 4 columns]
 \end{verbatim}
+
 \end{frame}
 
 \begin{frame}[fragile]{One more Python example}
 \protect\hypertarget{one-more-python-example}{}
+
 Press on \texttt{w} on your keyboard to make the presentation wider.
 Press \texttt{f} to fullscreen.
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \ImportTok{import}\NormalTok{ numpy }\ImportTok{as}\NormalTok{ np}
-\CommentTok{\# Create a new field based on the ask\_1\_price value:}
-\NormalTok{df[}\StringTok{\textquotesingle{}price\_percentile\textquotesingle{}}\NormalTok{] }\OperatorTok{=}\NormalTok{ np.where(df[}\StringTok{\textquotesingle{}ask\_1\_price\textquotesingle{}}\NormalTok{] }\OperatorTok{\textgreater{}}\NormalTok{ np.percentile(df[}\StringTok{\textquotesingle{}ask\_1\_price\textquotesingle{}}\NormalTok{], }\DecValTok{50}\NormalTok{),}
-                            \StringTok{\textquotesingle{}upper 50th percentile of prices\textquotesingle{}}\NormalTok{, }
-                            \StringTok{\textquotesingle{}lower 50th percentile of prices\textquotesingle{}}\NormalTok{)}
-\CommentTok{\# Show modified dataframe:}
-\NormalTok{df[[}\StringTok{\textquotesingle{}symbol\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}ask\_1\_price\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}price\_percentile\textquotesingle{}}\NormalTok{]]}
+\CommentTok{# Create a new field based on the ask_1_price value:}
+\NormalTok{df[}\StringTok{'price_percentile'}\NormalTok{] }\OperatorTok{=}\NormalTok{ np.where(df[}\StringTok{'ask_1_price'}\NormalTok{] }\OperatorTok{>} 
+\NormalTok{                                  np.percentile(df[}\StringTok{'ask_1_price'}\NormalTok{], }\DecValTok{50}\NormalTok{),}
+                            \StringTok{'upper 50th percentile of prices'}\NormalTok{, }
+                            \StringTok{'lower 50th percentile of prices'}\NormalTok{)}
+\CommentTok{# Show modified dataframe:}
+\NormalTok{df[[}\StringTok{'symbol'}\NormalTok{, }\StringTok{'ask_1_price'}\NormalTok{, }\StringTok{'price_percentile'}\NormalTok{]]}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
 ##      symbol  ask_1_price                 price_percentile
-## 0       BTC    18037.560  upper 50th percentile of prices
-## 1       ETH      544.422  lower 50th percentile of prices
-## 2       BTC    18338.710  upper 50th percentile of prices
-## 3       ETH      555.184  lower 50th percentile of prices
-## 4       BTC    18283.790  upper 50th percentile of prices
+## 0       BTC    18371.130  upper 50th percentile of prices
+## 1       ETH      553.770  lower 50th percentile of prices
+## 2       ETH      555.539  lower 50th percentile of prices
+## 3       BTC    18400.890  upper 50th percentile of prices
+## 4       ETH      557.140  lower 50th percentile of prices
 ## ...     ...          ...                              ...
-## 5077    BTC    11847.080  upper 50th percentile of prices
-## 5078    BTC    11819.920  upper 50th percentile of prices
-## 5079    BTC    11804.900  upper 50th percentile of prices
-## 5080    BTC    10686.880  upper 50th percentile of prices
-## 5081    ETH      357.844  lower 50th percentile of prices
+## 5091    BTC    11972.900  upper 50th percentile of prices
+## 5092    BTC    11985.890  upper 50th percentile of prices
+## 5093    BTC    11997.470  upper 50th percentile of prices
+## 5094    BTC    10686.880  upper 50th percentile of prices
+## 5095    ETH      357.844  lower 50th percentile of prices
 ## 
-## [5082 rows x 3 columns]
+## [5096 rows x 3 columns]
 \end{verbatim}
+
 \end{frame}
 
 \begin{frame}[fragile]{\href{https://r-markdown-gallery.org}{Back to
 Gallery}}
 \protect\hypertarget{back-to-gallery}{}
+
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{include\_url}\NormalTok{(}\StringTok{"https://r{-}markdown{-}gallery.org"}\NormalTok{)}
+\NormalTok{knitr}\OperatorTok{::}\KeywordTok{include_url}\NormalTok{(}\StringTok{"https://r-markdown-gallery.org"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
-\href{https://r-markdown-gallery.org}{\includegraphics{beamer_files/figure-beamer/unnamed-chunk-6-1.pdf}}
 \end{frame}
 
 \end{document}
