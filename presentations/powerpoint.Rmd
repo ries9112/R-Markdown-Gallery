@@ -6,10 +6,9 @@ always_allow_html: true
 
 ## Overview
 
-This document has code embedded throughout. In the next section we will create a visualization using the already loaded dataset `cryptodata`:
+This document has code embedded throughout. In the next section we will create a visualization using the already loaded dataset `eth_data`:
 ```{r, warning=F, message=F}
-library(DT)
-datatable(eth_data, rownames = FALSE)
+datatable(eth_data)
 ```
 
 ## Price Chart
@@ -35,7 +34,8 @@ Press on `w` on your keyboard to make the presentation wider. Press `f` to fulls
 ```{python}
 import numpy as np
 # Create a new field based on the ask_1_price value:
-df['price_percentile'] = np.where(df['ask_1_price'] > np.percentile(df['ask_1_price'], 50),
+df['price_percentile'] = np.where(df['ask_1_price'] > 
+                                  np.percentile(df['ask_1_price'], 50),
                             'upper 50th percentile of prices', 
                             'lower 50th percentile of prices')
 # Show modified dataframe:

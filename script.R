@@ -8,13 +8,12 @@ board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","h
 cryptodata <- select(filter(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"), 
                             symbol == 'ETH' | symbol == 'BTC'),
                      pair, symbol, ask_1_price, date_time_utc)
+# Arrange data from latest to earliest
+cryptodata <- arrange(cryptodata, desc(date_time_utc))
 
 # Create one dataset for ETH and one for BTC
 eth_data <- filter(cryptodata, symbol == 'ETH')
 btc_data <- filter(cryptodata, symbol == 'BTC')
-
-# Arrange from latest to earliest data collected
-eth_data <- arrange(eth_data, desc(date_time_utc))
 
 # Make chart
 eth_chart <- ggplot(data = eth_data, 
