@@ -1,0 +1,12 @@
+name: flexdashboard_example
+title: flexdashboard_example
+username:
+account: predictcrypto
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3394340
+bundleId: 3981510
+url: https://predictcrypto.shinyapps.io/flexdashboard_example/
+when: 1607838981.8849
+asMultiple: FALSE
+asStatic: FALSE

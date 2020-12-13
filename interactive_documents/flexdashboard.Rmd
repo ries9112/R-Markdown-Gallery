@@ -1,0 +1,87 @@
+---
+title: "R Markdown Output"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: spacelab
+    source_code: embed
+runtime: shiny
+---
+
+```{r setup, include=F}
+# Import packages
+library(pacman)
+library(pins)
+library(tidyverse)
+library(DT)
+library(ggforce)
+library(ggthemes)
+library(ggpubr)
+
+# Pull data - first register pins board to establish connection
+board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
+# Only keep main cryptocurrencies BTC and ETH
+cryptodata <- select(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"),
+                     pair, symbol, ask_1_price, date_time_utc)
+# Arrange data from latest to earliest
+cryptodata <- arrange(cryptodata, desc(date_time_utc))
+```
+
+Make Selections {.sidebar}
+-----------------------------------------------------------------------
+
+### Make Selections:
+
+```{r}
+dateRangeInput("dateRange", "Date range to plot:", format = "yyyy-mm-dd", start=min(as.Date(cryptodata$date_time_utc), na.rm=T), end=Sys.Date())
+
+selectInput('crypto','Select a cryptocurrency from the list below:',unique(cryptodata$symbol), selected = 'ETH', multiple = F)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Plot Metrics Over Time
+
+```{r}
+renderPlot({
+  ggplot(data = filter(cryptodata, symbol == input$crypto & 
+                         cryptodata$date_time_utc >= input$dateRange[1] & 
+                         cryptodata$date_time_utc < input$dateRange[2]), 
+                       aes(x = date_time_utc, y = ask_1_price)) + 
+                # show points as a line
+                geom_line() + 
+                # Add trend line
+                stat_smooth() +
+                # Add labels
+                xlab('Date Time (UTC)') +
+                ylab('Price ($)') +
+                ggtitle(paste('Price Change Over Time -', input$crypto),
+                        subtitle = paste('Most recent data collected on:',
+                                   max(cryptodata$date_time_utc, na.rm=T), '(UTC)')) + 
+                # Add theme
+                theme_economist() + 
+                # Add regression stats
+                stat_cor() +
+                # Circle max price
+                geom_mark_ellipse(aes(filter = ask_1_price == max(ask_1_price),
+                                      label = date_time_utc,
+                                      description = paste0('Price spike to $', ask_1_price))) +
+                # Now the same to circle the minimum price
+                geom_mark_ellipse(aes(filter = ask_1_price == min(ask_1_price),
+                                      label = date_time_utc,
+                                      description = paste0('Price drop to $', ask_1_price)))
+})
+```
+
+### Data
+
+```{r}
+renderDataTable({
+  datatable(filter(cryptodata, symbol == input$crypto & 
+                         cryptodata$date_time_utc >= input$dateRange[1] & 
+                         cryptodata$date_time_utc < input$dateRange[2]),
+  options = list(lengthMenu = c(5, 6, 7)))
+})
+```
