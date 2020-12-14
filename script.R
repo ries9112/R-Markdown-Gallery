@@ -45,3 +45,5 @@ eth_chart <- eth_chart +
                 geom_mark_ellipse(aes(filter = ask_1_price == min(ask_1_price),
                                       label = date_time_utc,
                                       description = paste0('Price drop to $', ask_1_price)))
+# Save image
+ggsave('eth_chart.png', plot = eth_chart)
