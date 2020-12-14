@@ -13,6 +13,8 @@ library(DT)
 library(ggforce)
 library(ggthemes)
 library(ggpubr)
+library(learnr)
+library(knitr)
 
 # Pull data - first register pins board to establish connection
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
@@ -21,35 +23,61 @@ cryptodata <- select(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_gith
                      pair, symbol, ask_1_price, date_time_utc)
 # Arrange data from latest to earliest
 cryptodata <- arrange(cryptodata, desc(date_time_utc))
+# disable scientific notation
+options(scipen = 999)
 ```
 
-## Topic 1
+## Overview
 
-### Example [ADD]
-Modify the following code to limit the number of rows printed to 5:
+This document has code embedded throughout and was created using the [R package **learnr**](https://rstudio.github.io/learnr/). In the next section we will create a visualization using the already loaded dataset `cryptodata`.
+
+Click on the blue button "run code" below. You can add to the code below and run it; click on the button "Hint" below for an example filtering the data down to only rows with the cryptocurrency symbol "ETH" for the Ethereum cryptocurrency. Once you write your code make sure to click on the blue button that says "Run Code" to refresh the results shown.
 
 ```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
-mtcars
+cryptodata
 ```
 
 ```{r print-limit-hint}
-head(mtcars)
+filter(cryptodata, symbol == 'ETH')
 ```
 
-## Topic 2
+Feel free to play around with the code chunk above and run whatever R code you would like on the data.
 
-### Python code example
+For example, here is same price chart shown in all other examples, you could copy and paste the code above and make changes as you please:
+```{r, warning=F, message=F}
+ggplot(filter(cryptodata, symbol == 'ETH'), 
+       aes(x = date_time_utc, y = ask_1_price)) +
+  # show points as a line
+  geom_line() + 
+  # Add trend line
+  stat_smooth() +
+  # Add labels
+  xlab('Date Time (UTC)') +
+  ylab('Price ($)') +
+  ggtitle(paste('Price Change Over Time - ETH'),
+          subtitle = paste('Most recent data collected on:',
+                     max(cryptodata$date_time_utc, na.rm=T), '(UTC)')) + 
+  # Add theme
+  theme_economist() + 
+  # Add regression stats
+  stat_cor() +
+  # Circle max price
+  geom_mark_ellipse(aes(filter = ask_1_price == max(ask_1_price),
+                        label = date_time_utc,
+                        description = paste0('Price spike to $', ask_1_price))) +
+  # Now the same to circle the minimum price
+  geom_mark_ellipse(aes(filter = ask_1_price == min(ask_1_price),
+                        label = date_time_utc,
+                        description = paste0('Price drop to $', ask_1_price)))
+```
 
+## Example Quiz
 
+*You can include any number of single or multiple choice questions as a quiz*
 
+Learn more about using this package here: https://rstudio.github.io/learnr/
 
-### Quiz
-
-*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
-
-Some questions to verify that you understand the purposes of various base and recommended R packages:
-
-```{r quiz}
+```{r quiz, echo=F}
 quiz(
   question_checkbox("Which lanuguages (among many others) are supported by R Markdown?",
     answer("python", correct = TRUE),
@@ -58,10 +86,46 @@ quiz(
   random_answer_order = TRUE,
   allow_retry = TRUE
   ),
-  question("Isn't R Markdown awesome?",
-    answer("yes!", correct = TRUE),
-    answer("no")
+  question("One more example with one option:",
+    answer("correct", correct = TRUE),
+    answer("wrong answer")
   )
 )
+```
+
+
+## Python Code Example
+
+Like the other examples, we can run Python code
+
+```{python}
+import pandas as pd
+# Create the Python object from R
+df = r.cryptodata
+# Show the new Python dataframe
+df
+```
+
+### One more Python example
+
+The code below creates a new column `price_percentile` that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower):
+
+```{python}
+import numpy as np
+# Create a new column based on the ask_1_price value:
+df['price_percentile'] = np.where(df['ask_1_price'] > 
+                                  np.percentile(df['ask_1_price'], 50),
+                            'upper 50th percentile of prices', 
+                            'lower 50th percentile of prices')
+# Show modified dataframe:
+df[['symbol', 'ask_1_price', 'price_percentile']]
+```
+
+There is also a way of allowing users to run Python code as exercise code chunks, see this thread for more information: https://github.com/rstudio/learnr/issues/213
+
+## [Back to Gallery](https://r-markdown-gallery.org)
+
+```{r}
+include_url("https://r-markdown-gallery.org")
 ```
 

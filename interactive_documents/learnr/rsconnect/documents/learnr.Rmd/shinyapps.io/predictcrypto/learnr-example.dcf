@@ -1,0 +1,12 @@
+name: learnr-example
+title: learnr-example
+username:
+account: predictcrypto
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3397324
+bundleId: 3985270
+url: https://predictcrypto.shinyapps.io/learnr-example/
+when: 1607916955.19319
+asMultiple: FALSE
+asStatic: FALSE
