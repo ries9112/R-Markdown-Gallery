@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://r-markdown-gallery.org/about.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/beamer.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/contact.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/flexdashboard.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/gallery.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/html-document.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/index.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/ioslides.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/output-by-category.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/powerpoint.html</loc>
+    </url>
+</urlset>

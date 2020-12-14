@@ -1,0 +1,67 @@
+---
+title: "R Markdown Output"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=F}
+# Import packages
+library(pacman)
+library(pins)
+library(tidyverse)
+library(DT)
+library(ggforce)
+library(ggthemes)
+library(ggpubr)
+
+# Pull data - first register pins board to establish connection
+board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
+# Only keep main cryptocurrencies BTC and ETH
+cryptodata <- select(pin_get("hitBTC_orderbooks_github", "hitBTC_orderbooks_github"),
+                     pair, symbol, ask_1_price, date_time_utc)
+# Arrange data from latest to earliest
+cryptodata <- arrange(cryptodata, desc(date_time_utc))
+```
+
+## Topic 1
+
+### Example [ADD]
+Modify the following code to limit the number of rows printed to 5:
+
+```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
+mtcars
+```
+
+```{r print-limit-hint}
+head(mtcars)
+```
+
+## Topic 2
+
+### Python code example
+
+
+
+
+### Quiz
+
+*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
+
+Some questions to verify that you understand the purposes of various base and recommended R packages:
+
+```{r quiz}
+quiz(
+  question_checkbox("Which lanuguages (among many others) are supported by R Markdown?",
+    answer("python", correct = TRUE),
+    answer("sql", correct = TRUE),
+    answer("css", correct = TRUE),
+  random_answer_order = TRUE,
+  allow_retry = TRUE
+  ),
+  question("Isn't R Markdown awesome?",
+    answer("yes!", correct = TRUE),
+    answer("no")
+  )
+)
+```
+
