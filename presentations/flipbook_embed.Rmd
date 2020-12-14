@@ -1,0 +1,162 @@
+---
+title: "Embedded Flipbook"
+author: Me, an Rmarkdown writer and flipbook builder
+output: html_document
+---
+
+This template aimed at doing the following:  preparing a flipbook from within an .Rmd source file and then *embedded* it in the resulting html.  Narrative might be interspersed between the code-movies.  
+
+## Steps:
+
+#### 1. Write a code chunk. 
+#### 2. Use embed_flipbook() to create chunk's flipbook and embed in your html_document 
+
+## More detail about step 2:
+
+#### 2.a. save that chunk code out as text and the current global environment
+#### 2.b. create an .Rmd file that will bring in code and global environment
+#### 2.c. render that file to an html (xaringan slide show)
+#### 2.d. embed the flipbook upon knitting your working .Rmd to .html
+
+
+```{r setup, include = F}
+# This is the recommended set up for flipbooks
+# you might think about setting cache to TRUE as you gain practice --- building flipbooks from scratch can be time consuming
+options(knitr.duplicate.label = "allow")
+knitr::opts_chunk$set(fig.width = 6, message = FALSE, warning = FALSE, comment = "", cache = F, error = F)
+library(flipbookr)
+library(tidyverse)
+```
+
+```{r just_for_evamaerey, cache = FALSE, echo = FALSE, message=F, warning=F}
+# you can just delete this whole code chunk -- it's just for testing and developing the package
+try(source("../../../../../R/a_create_test_code.R"))
+try(source("../../../../../R/b_parsing.R"))
+try(source("../../../../../R/c_prep_sequences.R"))
+try(source("../../../../../R/d_prep_rmd_chunks.R"))
+try(source("../../../../../R/e_define_css.R"))
+try(source("../../../../../R/f_chunk_expand.R"))
+try(source("../../../../../R/g_exported_functions.R"))
+try(source("../../../../../R/h_write_instant_flipbook.R"))
+```
+
+
+# A1. Here is some code (I'm naming the chunk "my_code"): 
+
+You might think about setting this code chunk's option include = F, to hide the code and output.
+
+```{r my_code}
+cars %>% 
+  ggplot() +
+  aes(x = dist) +
+  aes(y = speed) +
+  geom_point() -> 
+g
+```
+
+
+
+# A2. Let's get a walk-through using embed_flipbook():
+
+You might want to set the code chunk options to echo = F, unless you are demoing embed_flibook(). 
+
+```{r}
+embed_flipbook(chunk_name = "my_code", 
+                       use_share_again = T,
+                       font_size = 120)
+```
+
+---
+
+# B1. Here is some more code; I'm named the code chunk "fine_tuning":
+
+You might just set the code chunk options include = F.
+
+```{r fine_tuning, fig.show='hide'}
+g + 
+  theme_minimal(base_size = 12) +
+  aes(size = dist) +
+  aes(color = dist) +
+  scale_color_viridis_c() + 
+  geom_smooth() +
+  theme(legend.position = 
+          "none") +
+  labs(x = "Distance") +
+  labs(y = "Speed") + #BREAK
+  labs(title = "Cool plot!") +
+  theme(plot.title.position = 
+          "plot") #BREAK
+```
+
+# B2. Let's look at the build created from  embed_flipbook. View below or view [in new tab](fine_tuning.html){target="_blank"}
+
+You might set the code chunk option echo = F
+
+```{r}
+embed_flipbook(chunk_name = "fine_tuning", 
+               use_share_again = T, 
+               use_embed_xaringan = T,
+               font_size = 100,
+               title_page = T,
+               title = "How to Style your Plot",
+               subtitle = "Thematic Adjustments",
+               author = "Reynolds Lab",
+               break_type = "user")
+```
+
+
+
+# C. Okay python!  Just kidding.  This doesn't work yet.
+
+---
+
+```{python hello_python, include = T}
+[1, 4] * 8
+
+3 + 4 * 8 
+
+2 + 6
+
+4 * 8
+
+[1,2] + [3,4,5,6]
+
+["hello", "world!", 1, 2, 3] * 2
+
+import numpy as np
+
+np.reshape(np.arange(1,25), 
+    (4,3,2), "F")
+```
+
+
+
+```{r, eval = F}
+embed_flipbook("hello_python",
+               lang = "python")
+```
+
+
+# D. Text flipbook subject to change:
+
+```{r}
+embed_text_flipbook("hi there good seeing you", 
+                    title = "greetings", 
+                    sep = " ",
+                    use_embed_xaringan = T)
+```
+
+
+
+
+
+
+```{css, eval = TRUE, echo = FALSE}
+.remark-code{line-height: 1.5; font-size: 80%}
+
+@media print {
+  .has-continuation {
+    display: block;
+  }
+}
+```
