@@ -34,20 +34,30 @@ jobs:
           try(reticulate::install_miniconda())
           reticulate::conda_create('r-reticulate', packages = c('python==3.6.9'))
           reticulate::conda_install('r-reticulate','pandas')
-          # presentations - powerpoint
-          rmarkdown::render('presentations/powerpoint.Rmd')
-          # presentations - ioslides
-          rmarkdown::render('presentations/ioslides.Rmd')
-          # presentations - slidy
-          rmarkdown::render('presentations/slidy.Rmd')
           # beamer prerequisites
           #install.packages("tinytex")
           tinytex::install_tinytex()
           # presentations - beamer
           rmarkdown::render('presentations/beamer.Rmd')
-          # presentations - 
+          # presentations - ioslides
+          rmarkdown::render('presentations/ioslides.Rmd')
+          # presentations - powerpoint
+          rmarkdown::render('presentations/powerpoint.Rmd')
+          # presentations - revealjs
+          rmarkdown::render('presentations/revealjs.Rmd')
+          # presentations - slidy
+          rmarkdown::render('presentations/slidy.Rmd')
+          # presentations - xaringan
+          rmarkdown::render('presentations/xaringan.Rmd')
           
-          
+          # documents - html
+          rmarkdown::render('documents/html_document.Rmd')
+          # documents - pdf
+          rmarkdown::render('documents/pdf_document.Rmd')
+          # documents - tufte handout
+          rmarkdown::render('documents/tufte_handout.Rmd')
+          # documents - word
+          rmarkdown::render('documents/word_document.Rmd')
           
           # documents - parallax
           source('documents/parallax/build_parallax.R')

@@ -1,6 +1,8 @@
 ---
 title: "R Markdown Output"
 output: ioslides_presentation
+subtitle: "Last run on:\n `r Sys.time()`"
+date: "`r Sys.time()`"
 ---
 
 ## Overview
@@ -39,11 +41,5 @@ df['price_percentile'] = np.where(df['ask_1_price'] >
                             'lower 50th percentile of prices')
 # Show modified dataframe:
 df[['symbol', 'ask_1_price', 'price_percentile']]
-```
-
-## [Back to Gallery](https://r-markdown-gallery.org)
-
-```{r}
-include_url("https://r-markdown-gallery.org")
 ```
 
