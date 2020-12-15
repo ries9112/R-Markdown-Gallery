@@ -2,6 +2,7 @@
 title: "R Markdown Output"
 output: word_document
 subtitle: "Last run on:\n `r Sys.time()`"
+always_allow_html: true
 ---
 
 # Overview
