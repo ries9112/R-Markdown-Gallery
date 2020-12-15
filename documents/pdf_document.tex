@@ -3,46 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  ignorenonframetext,
-]{beamer}
-\usepackage{pgfpages}
-\setbeamertemplate{caption}[numbered]
-\setbeamertemplate{caption label separator}{: }
-\setbeamercolor{caption name}{fg=normal text.fg}
-\beamertemplatenavigationsymbolsempty
-% Prevent slide breaks in the middle of a paragraph
-\widowpenalties 1 10000
-\raggedbottom
-\setbeamertemplate{part page}{
-  \centering
-  \begin{beamercolorbox}[sep=16pt,center]{part title}
-    \usebeamerfont{part title}\insertpart\par
-  \end{beamercolorbox}
-}
-\setbeamertemplate{section page}{
-  \centering
-  \begin{beamercolorbox}[sep=12pt,center]{part title}
-    \usebeamerfont{section title}\insertsection\par
-  \end{beamercolorbox}
-}
-\setbeamertemplate{subsection page}{
-  \centering
-  \begin{beamercolorbox}[sep=8pt,center]{part title}
-    \usebeamerfont{subsection title}\insertsubsection\par
-  \end{beamercolorbox}
-}
-\AtBeginPart{
-  \frame{\partpage}
-}
-\AtBeginSection{
-  \ifbibliography
-  \else
-    \frame{\sectionpage}
-  \fi
-}
-\AtBeginSubsection{
-  \frame{\subsectionpage}
-}
+]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -79,7 +40,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\newif\ifbibliography
+\usepackage[margin=1in]{geometry}
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
@@ -139,15 +100,21 @@
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 
 \title{R Markdown Output}
-\subtitle{Last run on: 2020-12-15 19:17:56}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Last run on: 2020-12-15 19:18:34}
 \author{}
-\date{\vspace{-2.5em}2020-12-15 19:17:56}
+\date{\vspace{-2.5em}}
 
 \begin{document}
-\frame{\titlepage}
+\maketitle
 
-\begin{frame}[fragile]{Overview}
-\protect\hypertarget{overview}{}
+\hypertarget{overview}{%
+\section{Overview}\label{overview}}
 
 This document has code embedded throughout. In the next section we will
 create a visualization using the already loaded dataset
@@ -159,19 +126,15 @@ create a visualization using the already loaded dataset
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{htmlwidget-399e13f63fee28f6ec18}{}
+\hypertarget{htmlwidget-9e69bbce18b92bf11d01}{}
 
-\end{frame}
+\hypertarget{price-chart---ethereum}{%
+\section{Price Chart - Ethereum}\label{price-chart---ethereum}}
 
-\begin{frame}{Price Chart - Ethereum}
-\protect\hypertarget{price-chart---ethereum}{}
+\includegraphics{pdf_document_files/figure-latex/unnamed-chunk-2-1.pdf}
 
-\includegraphics{beamer_files/figure-beamer/unnamed-chunk-2-1.pdf}
-
-\end{frame}
-
-\begin{frame}[fragile]{Python Code Example}
-\protect\hypertarget{python-code-example}{}
+\hypertarget{python-code-example}{%
+\section{Python Code Example}\label{python-code-example}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -200,10 +163,8 @@ create a visualization using the already loaded dataset
 ## [5248 rows x 4 columns]
 \end{verbatim}
 
-\end{frame}
-
-\begin{frame}[fragile]{One more Python example}
-\protect\hypertarget{one-more-python-example}{}
+\hypertarget{one-more-python-example}{%
+\section{One more Python example}\label{one-more-python-example}}
 
 The code below creates a new column \texttt{price\_percentile} that
 specifies if the price for the row was in the upper or lower 50th
@@ -238,7 +199,5 @@ percentile of prices (BTC should be upper and ETH lower):
 ## 
 ## [5248 rows x 3 columns]
 \end{verbatim}
-
-\end{frame}
 
 \end{document}
