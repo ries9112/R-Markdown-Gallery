@@ -16,6 +16,34 @@ datatable(eth_data, options = list(lengthMenu = c(3, 5, 10)))
 eth_chart
 ```
 
+## Price Chart - Bitcoin
+
+```{r, warning=F, message=F, echo=F}
+ggplot(data = filter(cryptodata, symbol == 'BTC'), 
+                       aes(x = date_time_utc, y = ask_1_price)) + 
+                # show points as a line
+                geom_line() + 
+                # Add trend line
+                stat_smooth() +
+                # Add labels
+                xlab('Date Time (UTC)') +
+                ylab('Price ($)') +
+                ggtitle(paste('Price Change Over Time - BTC'),
+                        subtitle = paste('Most recent data collected on:',
+                                   max(eth_data$date_time_utc, na.rm=T), '(UTC)')) + 
+                # Add theme
+                theme_economist() + 
+                stat_cor() +
+                geom_mark_ellipse(aes(filter = ask_1_price == max(ask_1_price),
+                                      label = date_time_utc,
+                                      description = paste0('Price spike to $', ask_1_price))) +
+                  # Now the same to circle the minimum price:
+                geom_mark_ellipse(aes(filter = ask_1_price == min(ask_1_price),
+                                      label = date_time_utc,
+                                      description = paste0('Price drop to $', ask_1_price)))
+```
+
+
 # Python Code Example
 
 ```{python}

@@ -46,12 +46,7 @@ try(source("../../../../../R/h_write_instant_flipbook.R"))
 You might think about setting this code chunk's option include = F, to hide the code and output.
 
 ```{r my_code}
-cars %>% 
-  ggplot() +
-  aes(x = dist) +
-  aes(y = speed) +
-  geom_point() -> 
-g
+
 ```
 
 
@@ -73,19 +68,30 @@ embed_flipbook(chunk_name = "my_code",
 You might just set the code chunk options include = F.
 
 ```{r fine_tuning, fig.show='hide'}
-g + 
-  theme_minimal(base_size = 12) +
-  aes(size = dist) +
-  aes(color = dist) +
-  scale_color_viridis_c() + 
-  geom_smooth() +
-  theme(legend.position = 
-          "none") +
-  labs(x = "Distance") +
-  labs(y = "Speed") + #BREAK
-  labs(title = "Cool plot!") +
-  theme(plot.title.position = 
-          "plot") #BREAK
+ggplot(filter(cryptodata, symbol == 'ETH'), 
+       aes(x = date_time_utc, y = ask_1_price)) +
+  # show points as a line
+  geom_line() + 
+  # Add trend line
+  stat_smooth() +
+  # Add labels
+  xlab('Date Time (UTC)') +
+  ylab('Price ($)') +
+  ggtitle(paste('Price Change Over Time - ETH'),
+          subtitle = paste('Most recent data collected on:',
+                     max(cryptodata$date_time_utc, na.rm=T), '(UTC)')) + 
+  # Add theme
+  theme_economist() + 
+  # Add regression stats
+  stat_cor() +
+  # Circle max price
+  geom_mark_ellipse(aes(filter = ask_1_price == max(ask_1_price),
+                        label = date_time_utc,
+                        description = paste0('Price spike to $', ask_1_price))) +
+  # Now the same to circle the minimum price
+  geom_mark_ellipse(aes(filter = ask_1_price == min(ask_1_price),
+                        label = date_time_utc,
+                        description = paste0('Price drop to $', ask_1_price)))
 ```
 
 # B2. Let's look at the build created from  embed_flipbook. View below or view [in new tab](fine_tuning.html){target="_blank"}

@@ -16,7 +16,7 @@
         <loc>https://r-markdown-gallery.org/gallery.html</loc>
     </url>
     <url>
-        <loc>https://r-markdown-gallery.org/html-document.html</loc>
+        <loc>https://r-markdown-gallery.org/html.html</loc>
     </url>
     <url>
         <loc>https://r-markdown-gallery.org/index.html</loc>
@@ -31,6 +31,21 @@
         <loc>https://r-markdown-gallery.org/output-by-category.html</loc>
     </url>
     <url>
+        <loc>https://r-markdown-gallery.org/pdf.html</loc>
+    </url>
+    <url>
         <loc>https://r-markdown-gallery.org/powerpoint.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/revealjs.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/slidy.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/word.html</loc>
+    </url>
+    <url>
+        <loc>https://r-markdown-gallery.org/xaringan.html</loc>
     </url>
 </urlset>

@@ -46,4 +46,5 @@ eth_chart <- eth_chart +
                                       label = date_time_utc,
                                       description = paste0('Price drop to $', ask_1_price)))
 # Save image
-ggsave('eth_chart.png', plot = eth_chart)
+ggsave('eth_chart.png', plot = eth_chart, width = 10, height = 7, units = "cm")
+
