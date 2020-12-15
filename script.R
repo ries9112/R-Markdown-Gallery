@@ -1,7 +1,7 @@
 # Import packages
 library(pacman)
 p_load('pins','tidyverse','DT','ggforce','gganimate','ggthemes','ggpubr',
-       'plotly','revealjs','knitr','rmarkdown','tinytex','tufte')
+       'plotly','revealjs','xaringan','knitr','rmarkdown','tinytex','tufte')
 
 # Pull data - first register pins board to establish connection
 board_register("https://raw.githubusercontent.com/predictcrypto/pins/master/","hitBTC_orderbooks_github")
