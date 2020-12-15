@@ -61,6 +61,10 @@ jobs:
           
           # documents - parallax
           source('documents/parallax/build_parallax.R')
+          
+          
+          # Also remember that somewhere need to create docs folder for gh pages 
+          
         shell: Rscript {0}
       - name: Commit and push files
         run: |
