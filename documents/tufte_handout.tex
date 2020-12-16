@@ -1,0 +1,204 @@
+\documentclass[]{tufte-handout}
+
+% ams
+\usepackage{amssymb,amsmath}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \makeatletter
+  \@ifpackageloaded{fontspec}{}{\usepackage{fontspec}}
+  \makeatother
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \makeatletter
+  \@ifpackageloaded{soul}{
+     \renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+     \renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
+   }{}
+  \makeatother
+
+\fi
+
+% graphix
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+
+% booktabs
+\usepackage{booktabs}
+
+% url
+\usepackage{url}
+
+% hyperref
+\usepackage{hyperref}
+
+% units.
+\usepackage{units}
+
+
+\setcounter{secnumdepth}{-1}
+
+% citations
+
+
+% pandoc syntax highlighting
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+
+% longtable
+
+% multiplecol
+\usepackage{multicol}
+
+% strikeout
+\usepackage[normalem]{ulem}
+
+% morefloats
+\usepackage{morefloats}
+
+
+% tightlist macro required by pandoc >= 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% title / author / date
+\title{R Markdown Output}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\hypertarget{overview}{%
+\section{Overview}\label{overview}}
+
+This document has code embedded throughout. In the next section we will
+create a visualization using the already loaded dataset
+\texttt{eth\_data}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{datatable}\NormalTok{(eth_data)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{htmlwidget-7aab391b2d6f429253af}{}
+
+\hypertarget{price-chart---ethereum}{%
+\section{Price Chart - Ethereum}\label{price-chart---ethereum}}
+
+\includegraphics{tufte_handout_files/figure-latex/unnamed-chunk-2-1}
+
+\hypertarget{python-code-example}{%
+\section{Python Code Example}\label{python-code-example}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd}
+\CommentTok{# Create the Python object from R}
+\NormalTok{df }\OperatorTok{=}\NormalTok{ r.cryptodata}
+\CommentTok{# Show the new Python dataframe}
+\NormalTok{df}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##         pair symbol  ask_1_price       date_time_utc
+## 0     BTCUSD    BTC    19530.830 2020-12-15 19:00:01
+## 1     ETHUSD    ETH      589.274 2020-12-15 19:00:01
+## 2     ETHUSD    ETH      585.940 2020-12-15 18:00:01
+## 3     BTCUSD    BTC    19398.990 2020-12-15 18:00:00
+## 4     ETHUSD    ETH      585.514 2020-12-15 17:00:01
+## ...      ...    ...          ...                 ...
+## 5243  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
+## 5244  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
+## 5245  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
+## 5246  BTCUSD    BTC    10686.880                 NaT
+## 5247  ETHUSD    ETH      357.844                 NaT
+## 
+## [5248 rows x 4 columns]
+\end{verbatim}
+
+\hypertarget{one-more-python-example}{%
+\section{One more Python example}\label{one-more-python-example}}
+
+The code below creates a new column \texttt{price\_percentile} that
+specifies if the price for the row was in the upper or lower 50th
+percentile of prices (BTC should be upper and ETH lower):
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{import}\NormalTok{ numpy }\ImportTok{as}\NormalTok{ np}
+\CommentTok{# Create a new column based on the ask_1_price value:}
+\NormalTok{df[}\StringTok{'price_percentile'}\NormalTok{] }\OperatorTok{=}\NormalTok{ np.where(df[}\StringTok{'ask_1_price'}\NormalTok{] }\OperatorTok{>} 
+\NormalTok{                                  np.percentile(df[}\StringTok{'ask_1_price'}\NormalTok{], }\DecValTok{50}\NormalTok{),}
+                            \StringTok{'upper 50th percentile of prices'}\NormalTok{, }
+                            \StringTok{'lower 50th percentile of prices'}\NormalTok{)}
+\CommentTok{# Show modified dataframe:}
+\NormalTok{df[[}\StringTok{'symbol'}\NormalTok{, }\StringTok{'ask_1_price'}\NormalTok{, }\StringTok{'price_percentile'}\NormalTok{]]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##      symbol  ask_1_price                 price_percentile
+## 0       BTC    19530.830  upper 50th percentile of prices
+## 1       ETH      589.274  lower 50th percentile of prices
+## 2       ETH      585.940  lower 50th percentile of prices
+## 3       BTC    19398.990  upper 50th percentile of prices
+## 4       ETH      585.514  lower 50th percentile of prices
+## ...     ...          ...                              ...
+## 5243    BTC    11972.900  upper 50th percentile of prices
+## 5244    BTC    11985.890  upper 50th percentile of prices
+## 5245    BTC    11997.470  upper 50th percentile of prices
+## 5246    BTC    10686.880  upper 50th percentile of prices
+## 5247    ETH      357.844  lower 50th percentile of prices
+## 
+## [5248 rows x 3 columns]
+\end{verbatim}
+
+
+
+\end{document}
