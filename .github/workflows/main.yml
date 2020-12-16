@@ -1,5 +1,7 @@
 name: Run R Markdown Examples
-on: [push]
+on:
+  schedule:
+    - cron: '00 06 * * *'
 
 jobs:
   build:
