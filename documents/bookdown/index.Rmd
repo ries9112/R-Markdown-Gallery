@@ -18,6 +18,6 @@ This document has code embedded throughout. In the next section we will create a
 datatable(eth_data)
 ```
 
-The table above uses the **`DT`** package [@R-DT]. The **`bookdown`** package [@R-bookdown] is packed with functionality, including in-text citations that automatically generate the references correctly as we have done here.
+The table above uses the **`DT`** package [@R-DT]. The **`bookdown`** package [@R-bookdown] is packed with functionality, including in-text citations that automatically generate the references as we have done here.
 
 

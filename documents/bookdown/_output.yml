@@ -2,8 +2,7 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
-      before: |
-        <li><a href="./">A Book Made in R Markdown/a></li>
+      before: <br> A Minimal "Book" Made in R Markdown <br>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">This document uses bookdown</a></li>
     edit: https://github.com/ries9112/R-Markdown-Gallery/edit/main/%s
