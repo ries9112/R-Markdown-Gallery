@@ -1,10 +1,6 @@
-fig:nice-fig
-tab:nice-tab
-prerequisites
-intro
+overview
+price-chart---ethereum
 literature
-methods
-applications
-example-one
-example-two
-final-words
+python-code-example
+one-more-python-example
+bookdown-examples
