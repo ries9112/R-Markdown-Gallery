@@ -2,7 +2,6 @@
 title: "R Markdown Output"
 output: revealjs::revealjs_presentation
 subtitle: "Last run on:\n `r Sys.time()`"
-date: "`r Sys.time()`"
 ---
 
 # Overview

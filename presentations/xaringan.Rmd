@@ -3,7 +3,6 @@ title: "R Markdown Output"
 output: xaringan::moon_reader
 always_allow_html: true
 subtitle: "Last run on:\n `r Sys.time()`"
-date: "`r Sys.time()`"
 ---
 
 # Overview
