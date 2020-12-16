@@ -1,7 +1,7 @@
 name: Run R Markdown Examples
 on:
   schedule:
-    - cron: '00 06 * * *'
+    - cron: '00 23 * * *'
 
 jobs:
   build:
