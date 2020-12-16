@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Literature | R Markdown Output</title>
+  <title>Chapter 4 Python Code Example | R Markdown Output</title>
   <meta name="description" content="An example of a bookdown document using R Markdown" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Literature | R Markdown Output" />
+  <meta property="og:title" content="Chapter 4 Python Code Example | R Markdown Output" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Literature | R Markdown Output" />
+  <meta name="twitter:title" content="Chapter 4 Python Code Example | R Markdown Output" />
   
   <meta name="twitter:description" content="An example of a bookdown document using R Markdown" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="price-chart-ethereum.html"/>
-<link rel="next" href="python-code-example.html"/>
+<link rel="prev" href="literature.html"/>
+<link rel="next" href="references.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -170,18 +170,62 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="literature" class="section level1">
-<h1><span class="header-section-number">Chapter 3</span> Literature</h1>
-<p>Here is a review of existing methods.</p>
+<div id="python-code-example" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Python Code Example</h1>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="python-code-example.html#cb2-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-2"><a href="python-code-example.html#cb2-2"></a><span class="co"># Create the Python object from R</span></span>
+<span id="cb2-3"><a href="python-code-example.html#cb2-3"></a>df <span class="op">=</span> r.cryptodata</span>
+<span id="cb2-4"><a href="python-code-example.html#cb2-4"></a><span class="co"># Show the new Python dataframe</span></span>
+<span id="cb2-5"><a href="python-code-example.html#cb2-5"></a>df</span></code></pre></div>
+<pre><code>##         pair symbol  ask_1_price       date_time_utc
+## 0     ETHUSD    ETH      583.142 2020-12-16 04:00:01
+## 1     BTCUSD    BTC    19346.120 2020-12-16 04:00:00
+## 2     ETHUSD    ETH      585.586 2020-12-16 03:00:01
+## 3     BTCUSD    BTC    19440.030 2020-12-16 03:00:00
+## 4     ETHUSD    ETH      585.131 2020-12-16 02:00:01
+## ...      ...    ...          ...                 ...
+## 5261  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
+## 5262  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
+## 5263  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
+## 5264  BTCUSD    BTC    10686.880                 NaT
+## 5265  ETHUSD    ETH      357.844                 NaT
+## 
+## [5266 rows x 4 columns]</code></pre>
+<div id="one-more-python-example" class="section level2">
+<h2><span class="header-section-number">4.1</span> One more Python example</h2>
+<p>The code below creates a new column <code>price_percentile</code> that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower):</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="python-code-example.html#cb4-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb4-2"><a href="python-code-example.html#cb4-2"></a><span class="co"># Create a new column based on the ask_1_price value:</span></span>
+<span id="cb4-3"><a href="python-code-example.html#cb4-3"></a>df[<span class="st">&#39;price_percentile&#39;</span>] <span class="op">=</span> np.where(df[<span class="st">&#39;ask_1_price&#39;</span>] <span class="op">&gt;</span> </span>
+<span id="cb4-4"><a href="python-code-example.html#cb4-4"></a>                                  np.percentile(df[<span class="st">&#39;ask_1_price&#39;</span>], <span class="dv">50</span>),</span>
+<span id="cb4-5"><a href="python-code-example.html#cb4-5"></a>                            <span class="st">&#39;upper 50th percentile of prices&#39;</span>, </span>
+<span id="cb4-6"><a href="python-code-example.html#cb4-6"></a>                            <span class="st">&#39;lower 50th percentile of prices&#39;</span>)</span>
+<span id="cb4-7"><a href="python-code-example.html#cb4-7"></a><span class="co"># Show modified dataframe:</span></span>
+<span id="cb4-8"><a href="python-code-example.html#cb4-8"></a>df[[<span class="st">&#39;symbol&#39;</span>, <span class="st">&#39;ask_1_price&#39;</span>, <span class="st">&#39;price_percentile&#39;</span>]]</span></code></pre></div>
+<pre><code>##      symbol  ask_1_price                 price_percentile
+## 0       ETH      583.142  lower 50th percentile of prices
+## 1       BTC    19346.120  upper 50th percentile of prices
+## 2       ETH      585.586  lower 50th percentile of prices
+## 3       BTC    19440.030  upper 50th percentile of prices
+## 4       ETH      585.131  lower 50th percentile of prices
+## ...     ...          ...                              ...
+## 5261    BTC    11972.900  upper 50th percentile of prices
+## 5262    BTC    11985.890  upper 50th percentile of prices
+## 5263    BTC    11997.470  upper 50th percentile of prices
+## 5264    BTC    10686.880  upper 50th percentile of prices
+## 5265    ETH      357.844  lower 50th percentile of prices
+## 
+## [5266 rows x 3 columns]</code></pre>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="price-chart-ethereum.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="python-code-example.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="literature.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -212,7 +256,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-chart_example.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-python_example.Rmd",
 "text": "Edit"
 },
 "history": {
