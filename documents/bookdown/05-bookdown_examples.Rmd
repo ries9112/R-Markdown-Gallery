@@ -1,5 +1,0 @@
-# bookdown Examples
-
-[See this example for a more complex bookdown document which updates automatically every 12 hours using the same tools as this example.](https://cryptocurrencyresearch.org/)
-
-TODO - Add more bookdown examples here
