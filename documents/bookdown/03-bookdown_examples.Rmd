@@ -1,0 +1,9 @@
+# bookdown Examples
+
+- [See this example for a more complex bookdown document which updates automatically every 12 hours using the same tools as this example.](https://cryptocurrencyresearch.org/)
+
+- [Supervised Machine Learning for Text Analysis in R](https://smltar.com/)
+
+- [JavaScript for R](https://book.javascript-for-r.com/)
+
+**Find more examples published through the bookdown website: https://bookdown.org/home/archive/**

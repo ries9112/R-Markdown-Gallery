@@ -1,6 +1,5 @@
 overview
 price-chart---ethereum
-literature
 python-code-example
 one-more-python-example
 bookdown-examples

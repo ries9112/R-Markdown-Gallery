@@ -1,5 +1,0 @@
-# Price Chart - Ethereum
-
-```{r, warning=F, message=F, echo=F}
-eth_chart
-```
