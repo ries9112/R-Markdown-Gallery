@@ -106,7 +106,7 @@
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{Last run on: 2021-01-06 06:36:00}
+\subtitle{Last run on: 2021-01-08 06:38:02}
 \author{}
 \date{\vspace{-2.5em}}
 
@@ -126,7 +126,7 @@ create a visualization using the already loaded dataset
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{htmlwidget-5ca14af2ef52f4bc9097}{}
+\hypertarget{htmlwidget-d5b0f5f85e3926d5eb0a}{}
 
 \hypertarget{price-chart---ethereum}{%
 \section{Price Chart - Ethereum}\label{price-chart---ethereum}}
@@ -145,23 +145,6 @@ create a visualization using the already loaded dataset
 \NormalTok{df}
 \end{Highlighting}
 \end{Shaded}
-
-\begin{verbatim}
-##         pair symbol  ask_1_price       date_time_utc
-## 0     BTCUSD    BTC    34974.040 2021-01-06 06:00:01
-## 1     ETHUSD    ETH     1101.446 2021-01-06 06:00:01
-## 2     ETHUSD    ETH     1118.295 2021-01-06 05:00:01
-## 3     BTCUSD    BTC    35332.310 2021-01-06 05:00:00
-## 4     ETHUSD    ETH     1075.253 2021-01-06 04:00:01
-## ...      ...    ...          ...                 ...
-## 6273  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
-## 6274  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
-## 6275  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
-## 6276  BTCUSD    BTC    10686.880                 NaT
-## 6277  ETHUSD    ETH      357.844                 NaT
-## 
-## [6278 rows x 4 columns]
-\end{verbatim}
 
 \hypertarget{one-more-python-example}{%
 \section{One more Python example}\label{one-more-python-example}}
@@ -182,22 +165,5 @@ percentile of prices (BTC should be upper and ETH lower):
 \NormalTok{df[[}\StringTok{'symbol'}\NormalTok{, }\StringTok{'ask_1_price'}\NormalTok{, }\StringTok{'price_percentile'}\NormalTok{]]}
 \end{Highlighting}
 \end{Shaded}
-
-\begin{verbatim}
-##      symbol  ask_1_price                 price_percentile
-## 0       BTC    34974.040  upper 50th percentile of prices
-## 1       ETH     1101.446  lower 50th percentile of prices
-## 2       ETH     1118.295  lower 50th percentile of prices
-## 3       BTC    35332.310  upper 50th percentile of prices
-## 4       ETH     1075.253  lower 50th percentile of prices
-## ...     ...          ...                              ...
-## 6273    BTC    11972.900  upper 50th percentile of prices
-## 6274    BTC    11985.890  upper 50th percentile of prices
-## 6275    BTC    11997.470  upper 50th percentile of prices
-## 6276    BTC    10686.880  upper 50th percentile of prices
-## 6277    ETH      357.844  lower 50th percentile of prices
-## 
-## [6278 rows x 3 columns]
-\end{verbatim}
 
 \end{document}

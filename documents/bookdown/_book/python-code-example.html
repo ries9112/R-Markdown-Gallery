@@ -53,7 +53,7 @@
 <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
 <script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.16/datatables.js"></script>
+<script src="libs/datatables-binding-0.17/datatables.js"></script>
 <link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
 <link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
 <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
@@ -175,45 +175,217 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-3"><a href="python-code-example.html#cb2-3"></a>df <span class="op">=</span> r.cryptodata</span>
 <span id="cb2-4"><a href="python-code-example.html#cb2-4"></a><span class="co"># Show the new Python dataframe</span></span>
 <span id="cb2-5"><a href="python-code-example.html#cb2-5"></a>df</span></code></pre></div>
-<pre><code>##         pair symbol  ask_1_price       date_time_utc
-## 0     BTCUSD    BTC    34974.040 2021-01-06 06:00:01
-## 1     ETHUSD    ETH     1101.446 2021-01-06 06:00:01
-## 2     ETHUSD    ETH     1118.295 2021-01-06 05:00:01
-## 3     BTCUSD    BTC    35332.310 2021-01-06 05:00:00
-## 4     ETHUSD    ETH     1075.253 2021-01-06 04:00:01
-## ...      ...    ...          ...                 ...
-## 6273  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
-## 6274  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
-## 6275  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
-## 6276  BTCUSD    BTC    10686.880                 NaT
-## 6277  ETHUSD    ETH      357.844                 NaT
-## 
-## [6278 rows x 4 columns]</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pair</th>
+      <th>symbol</th>
+      <th>ask_1_price</th>
+      <th>date_time_utc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ETHUSD</td>
+      <td>ETH</td>
+      <td>1147.272</td>
+      <td>2021-01-08 06:00:01</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>37954.290</td>
+      <td>2021-01-08 06:00:00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>38669.770</td>
+      <td>2021-01-08 05:00:01</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ETHUSD</td>
+      <td>ETH</td>
+      <td>1167.805</td>
+      <td>2021-01-08 05:00:01</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>38303.660</td>
+      <td>2021-01-08 04:00:01</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>6369</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>11972.900</td>
+      <td>2020-08-10 06:03:50</td>
+    </tr>
+    <tr>
+      <th>6370</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>11985.890</td>
+      <td>2020-08-10 05:03:48</td>
+    </tr>
+    <tr>
+      <th>6371</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>11997.470</td>
+      <td>2020-08-10 04:32:55</td>
+    </tr>
+    <tr>
+      <th>6372</th>
+      <td>BTCUSD</td>
+      <td>BTC</td>
+      <td>10686.880</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>6373</th>
+      <td>ETHUSD</td>
+      <td>ETH</td>
+      <td>357.844</td>
+      <td>NaT</td>
+    </tr>
+  </tbody>
+</table>
+<p>6374 rows × 4 columns</p>
+</div>
 <div id="one-more-python-example" class="section level2">
 <h2><span class="header-section-number">3.1</span> One more Python example</h2>
 <p>The code below creates a new column <code>price_percentile</code> that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower):</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="python-code-example.html#cb4-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb4-2"><a href="python-code-example.html#cb4-2"></a><span class="co"># Create a new column based on the ask_1_price value:</span></span>
-<span id="cb4-3"><a href="python-code-example.html#cb4-3"></a>df[<span class="st">&#39;price_percentile&#39;</span>] <span class="op">=</span> np.where(df[<span class="st">&#39;ask_1_price&#39;</span>] <span class="op">&gt;</span> </span>
-<span id="cb4-4"><a href="python-code-example.html#cb4-4"></a>                                  np.percentile(df[<span class="st">&#39;ask_1_price&#39;</span>], <span class="dv">50</span>),</span>
-<span id="cb4-5"><a href="python-code-example.html#cb4-5"></a>                            <span class="st">&#39;upper 50th percentile of prices&#39;</span>, </span>
-<span id="cb4-6"><a href="python-code-example.html#cb4-6"></a>                            <span class="st">&#39;lower 50th percentile of prices&#39;</span>)</span>
-<span id="cb4-7"><a href="python-code-example.html#cb4-7"></a><span class="co"># Show modified dataframe:</span></span>
-<span id="cb4-8"><a href="python-code-example.html#cb4-8"></a>df[[<span class="st">&#39;symbol&#39;</span>, <span class="st">&#39;ask_1_price&#39;</span>, <span class="st">&#39;price_percentile&#39;</span>]]</span></code></pre></div>
-<pre><code>##      symbol  ask_1_price                 price_percentile
-## 0       BTC    34974.040  upper 50th percentile of prices
-## 1       ETH     1101.446  lower 50th percentile of prices
-## 2       ETH     1118.295  lower 50th percentile of prices
-## 3       BTC    35332.310  upper 50th percentile of prices
-## 4       ETH     1075.253  lower 50th percentile of prices
-## ...     ...          ...                              ...
-## 6273    BTC    11972.900  upper 50th percentile of prices
-## 6274    BTC    11985.890  upper 50th percentile of prices
-## 6275    BTC    11997.470  upper 50th percentile of prices
-## 6276    BTC    10686.880  upper 50th percentile of prices
-## 6277    ETH      357.844  lower 50th percentile of prices
-## 
-## [6278 rows x 3 columns]</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="python-code-example.html#cb3-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-2"><a href="python-code-example.html#cb3-2"></a><span class="co"># Create a new column based on the ask_1_price value:</span></span>
+<span id="cb3-3"><a href="python-code-example.html#cb3-3"></a>df[<span class="st">&#39;price_percentile&#39;</span>] <span class="op">=</span> np.where(df[<span class="st">&#39;ask_1_price&#39;</span>] <span class="op">&gt;</span> </span>
+<span id="cb3-4"><a href="python-code-example.html#cb3-4"></a>                                  np.percentile(df[<span class="st">&#39;ask_1_price&#39;</span>], <span class="dv">50</span>),</span>
+<span id="cb3-5"><a href="python-code-example.html#cb3-5"></a>                            <span class="st">&#39;upper 50th percentile of prices&#39;</span>, </span>
+<span id="cb3-6"><a href="python-code-example.html#cb3-6"></a>                            <span class="st">&#39;lower 50th percentile of prices&#39;</span>)</span>
+<span id="cb3-7"><a href="python-code-example.html#cb3-7"></a><span class="co"># Show modified dataframe:</span></span>
+<span id="cb3-8"><a href="python-code-example.html#cb3-8"></a>df[[<span class="st">&#39;symbol&#39;</span>, <span class="st">&#39;ask_1_price&#39;</span>, <span class="st">&#39;price_percentile&#39;</span>]]</span></code></pre></div>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>symbol</th>
+      <th>ask_1_price</th>
+      <th>price_percentile</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ETH</td>
+      <td>1147.272</td>
+      <td>lower 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>BTC</td>
+      <td>37954.290</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>BTC</td>
+      <td>38669.770</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ETH</td>
+      <td>1167.805</td>
+      <td>lower 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>BTC</td>
+      <td>38303.660</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>6369</th>
+      <td>BTC</td>
+      <td>11972.900</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>6370</th>
+      <td>BTC</td>
+      <td>11985.890</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>6371</th>
+      <td>BTC</td>
+      <td>11997.470</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>6372</th>
+      <td>BTC</td>
+      <td>10686.880</td>
+      <td>upper 50th percentile of prices</td>
+    </tr>
+    <tr>
+      <th>6373</th>
+      <td>ETH</td>
+      <td>357.844</td>
+      <td>lower 50th percentile of prices</td>
+    </tr>
+  </tbody>
+</table>
+<p>6374 rows × 3 columns</p>
+</div>
 
 </div>
 </div>
