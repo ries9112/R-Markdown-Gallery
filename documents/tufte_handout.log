@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.7)  8 JAN 2021 06:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.9)  9 JAN 2021 06:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
-LaTeX2e <2020-10-01> patch level 3
+LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2020-12-07> xparse <2020-03-03>
 (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.c
 ls
@@ -666,20 +666,20 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 71ABEE6E9518A7D19E8647CF509E06FA;560.
  ) 
 Here is how much of TeX's memory you used:
- 13257 strings out of 481258
- 192501 string characters out of 5914854
- 509433 words of memory out of 5000000
- 29924 multiletter control sequences out of 15000+600000
+ 13255 strings out of 481255
+ 192382 string characters out of 5914976
+ 509738 words of memory out of 5000000
+ 29927 multiletter control sequences out of 15000+600000
  407830 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,11n,84p,261b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 92i,11n,92p,261b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit100
 0.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 ctt1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecrm1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecti1200.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecti1440.600pk>
-Output written on tufte_handout.pdf (2 pages, 63654 bytes).
+Output written on tufte_handout.pdf (2 pages, 64211 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
