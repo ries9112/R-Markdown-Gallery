@@ -2,7 +2,8 @@
 
 This website showcases the many different kinds of output documents you can produce using R Markdown, and refreshes all outputs daily with the latest data from the cryptocurrency markets.
 
-1. An [R script connects to a data source to creates a new visualization daily](https://github.com/ries9112/R-Markdown-Gallery/blob/main/script.R): <img src="eth_chart.png" width="420" height="420">
+1. An [R script connects to a data source to creates a new visualization daily](https://github.com/ries9112/R-Markdown-Gallery/blob/main/script.R): 
+<img src="eth_chart.png" width="420" height="420">
 
 2. The data and visualization are then displayed in a variety of different formats using the same structure and code, but creating [different kinds of documents](https://r-markdown-gallery.com/gallery.html) specifying the R Markdown output type accordingly and rendering each one.
 
