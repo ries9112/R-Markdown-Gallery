@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.10)  10 JAN 2021 06:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  11 JAN 2021 06:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2020-12-07> xparse <2020-03-03>
+L3 programming layer <2021-01-09> xparse <2020-03-03>
 (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.c
 ls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
@@ -540,7 +540,7 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 )
 (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
 def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count304
 \l__pdf_internal_box=\box103
 ) (./tufte_handout.aux)
@@ -666,10 +666,10 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 71ABEE6E9518A7D19E8647CF509E06FA;560.
  ) 
 Here is how much of TeX's memory you used:
- 13255 strings out of 481255
- 192382 string characters out of 5914975
- 509738 words of memory out of 5000000
- 29927 multiletter control sequences out of 15000+600000
+ 13258 strings out of 481252
+ 192466 string characters out of 5914904
+ 511779 words of memory out of 5000000
+ 29933 multiletter control sequences out of 15000+600000
  407830 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  92i,11n,92p,261b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -679,7 +679,7 @@ ctt1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecrm1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecti1200.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecti1440.600pk>
-Output written on tufte_handout.pdf (2 pages, 63916 bytes).
+Output written on tufte_handout.pdf (2 pages, 64423 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
