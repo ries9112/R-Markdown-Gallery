@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  11 JAN 2021 06:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  12 JAN 2021 06:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,8 +666,8 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 71ABEE6E9518A7D19E8647CF509E06FA;560.
  ) 
 Here is how much of TeX's memory you used:
- 13258 strings out of 481252
- 192466 string characters out of 5914904
+ 13260 strings out of 481252
+ 192585 string characters out of 5914732
  511779 words of memory out of 5000000
  29933 multiletter control sequences out of 15000+600000
  407830 words of font info for 35 fonts, out of 8000000 for 9000
@@ -679,7 +679,7 @@ ctt1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecrm1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecti1200.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecti1440.600pk>
-Output written on tufte_handout.pdf (2 pages, 64423 bytes).
+Output written on tufte_handout.pdf (2 pages, 64749 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
