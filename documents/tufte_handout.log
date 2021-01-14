@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.12)  13 JAN 2021 06:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.13)  14 JAN 2021 07:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,7 +679,7 @@ ctt1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecrm1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecti1200.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecti1440.600pk>
-Output written on tufte_handout.pdf (2 pages, 64681 bytes).
+Output written on tufte_handout.pdf (2 pages, 64556 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
