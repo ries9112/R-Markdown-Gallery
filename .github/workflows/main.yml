@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: macOS-10.15
+    runs-on: windows-2019
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
       PIP_NO_WARN_SCRIPT_LOCATION: false
