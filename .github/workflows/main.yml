@@ -28,6 +28,7 @@ jobs:
         run: |
           #install.packages('rmarkdown')
           #install.packages('pacman')
+          install.packages('reticulate')
           install.packages('renv')
           renv::consent(provided = TRUE)
           renv::restore()
