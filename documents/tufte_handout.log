@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.13)  14 JAN 2021 07:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.20)  21 JAN 2021 07:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,26 +6,37 @@ entering extended mode
 (./tufte_handout.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03>
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.c
-ls
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/
+tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-common.de
-f
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/
+tufte-common.def
 File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkey
+val.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/Use
-rs/runner/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xk
+eyval.tex
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xk
+vutils.tex
 \XKV@toks=\toks15
 \XKV@tempa@toks=\toks16
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/ke
+yval.tex))
 \XKV@depth=\count177
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
+))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xifthen/xift
+hen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.s
+ty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count178
 \calc@Bcount=\count179
@@ -37,37 +48,56 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count180
 \calc@Cskip=\skip49
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.
+sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmt
+arg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hardwrap/hardwrap.sty
+))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hardwrap/har
+dwrap.sty
 Package: hardwrap 2011/02/12 v0.2 Hard wrap messages
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds
+/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/
+infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifte
+x.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/lt
+xcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxe
+tex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 \hw@charcount=\count181
 \hw@wordcount=\count182
 \hw@maxprintline=\count183
-(|kpsewhich -var-value=max_print_line))
+)
 Class tufte-handout Info: Loading the base class `article'
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article
+.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.
+clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count184
@@ -81,11 +111,17 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 \bibindent=\dimen140
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpd
+f.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iflu
+atex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/tit
+lesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box47
 \beforetitleunit=\skip52
@@ -96,44 +132,67 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen143
 \titlewidthlast=\dimen144
 \titlewidthfirst=\dimen145
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titletoc.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/tit
+letoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen146
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyp
+erref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/
+kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys
-.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefineke
+ys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/
+pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hyco
+lor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/
+letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxh
+ook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kv
+options.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
 \Hy@linkcounter=\count192
 \Hy@pagecounter=\count193
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1
+enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/in
+tcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/e
+texcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count194
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pue
+nc.def
 File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -147,16 +206,19 @@ Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count195
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen148
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bit
+set.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc
+/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -172,7 +234,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegsh
+i-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
@@ -181,9 +245,13 @@ with kernel methods
 \c@Item=\count198
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpd
+ftex.def
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atverye
+nd-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
@@ -191,23 +259,29 @@ with kernel methods
 \Fld@listcount=\count199
 \c@bookmark@seq@number=\count266
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfileche
-ck.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfileche
+ck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecount
-er.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecoun
+ter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip54
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/rag
+ged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/everysel/eve
+rysel.sty
+Package: everysel 2021/01/18 v2.0 EverySelectfont Package (MS)
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/everysel/eve
+rysel-2011-10-28.sty))
 \CenteringLeftskip=\skip55
 \RaggedLeftLeftskip=\skip56
 \RaggedRightLeftskip=\skip57
@@ -222,9 +296,13 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip66
 \RaggedRightParindent=\skip67
 \JustifyingParindent=\skip68
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geo
+metry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvt
+ex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count267
@@ -239,7 +317,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks18
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/changepage/changepage.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/changepage/c
+hangepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count270
 \cp@tempcnt=\count271
@@ -247,29 +327,41 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \@tufte@overhang=\skip69
 \@tufte@fullwidth=\skip70
 \@tufte@caption@fill=\skip71
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/paralist/paralist.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/paralist/par
+alist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip72
 \plpartopsep=\skip73
 \plitemsep=\skip74
 \plparsep=\skip75
 \pl@lab=\toks19
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/textcase/textcase.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textcase/tex
+tcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
 
 Class tufte-handout Warning: Couldn't locate `soul' package
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/set
+space.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolo
+r.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg
+/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def
+/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -281,26 +373,38 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvi
+psnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/svgna
+m.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
-)) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/natbi
+b.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count272
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/natbib/bibentry.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/biben
+try.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 No file tufte_handout.bbl.
 \c@@tufte@num@bibkeys=\count273
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/sauerj/optparams.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sauerj/optpa
+rams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
 \@tufte@sidenote@vertical@offset=\skip78
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/placeins/pla
+ceins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 \@tufte@margin@floatbox=\box48
@@ -308,11 +412,17 @@ Package: placeins 2005/04/18  v 2.2
 \@tufte@caption@box=\box50
 \@tufte@caption@vertical@offset=\skip79
 \@tufte@float@contents@width=\skip80
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc
+.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcom
+p.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fan
+cyhdr.sty
 Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip81
@@ -326,7 +436,9 @@ Package: fancyhdr 2021/01/04 v4.0 Extensive control of page headers and footers
 \f@nch@O@orf=\skip89
 )
 \tufteskipamount=\skip90
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multic
+ol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count274
 \mult@box=\box51
@@ -395,9 +507,13 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
 \mc@col@check@num=\count283
-))) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ams
+symb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ams
+fonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -405,20 +521,30 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsm
+ath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip93
 For additional information on amsmath, use the `?' option.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amst
+ext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsg
+en.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen168
-)) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsb
+sy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen169
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amso
+pn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count284
@@ -458,7 +584,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fixltx2
+e.sty
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -467,26 +595,40 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc
+.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputen
+c.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/gra
+phicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/gra
+phics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/tri
+g.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg
+/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen177
 \Gin@req@width=\dimen178
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/boo
+ktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen179
 \lightrulewidth=\dimen180
@@ -505,14 +647,20 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count298
 \@lastruleclass=\count299
 \@thisrulewidth=\dimen191
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/units/units.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/units/units.
+sty
 Package: units 1998/08/04 v0.9b Typesetting units
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/units/nicefrac.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/units/nicefr
+ac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip96
 \L@UnitsRaiseTextstyle=\skip97
 \L@UnitsRaiseScriptstyle=\skip98
-)) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+))
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fan
+cyvrb.sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count300
 \FV@InFile=\read2
@@ -520,7 +668,9 @@ Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
 \c@FancyVerbLine=\count301
 \FV@StepNumber=\count302
 \FV@OutFile=\write3
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.
+sty
 \UL@box=\box100
 \UL@hyphenbox=\box101
 \UL@skip=\skip99
@@ -531,15 +681,17 @@ Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
 \ULC@box=\box102
 Package: ulem 2019/11/18
 \ULdepth=\dimen194
-) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/morefloats/morefloats.sty
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/morefloats/m
+orefloats.sty
 Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
 Package morefloats Info: Maximum number of possible floats asked for: 36
 (morefloats)             (i.e. 18 more floats).
 (morefloats)             LaTeX might run out of memory before this
 (morefloats)             (in which case it will notify you).
 )
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
-def
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3
+backend-pdftex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count304
 \l__pdf_internal_box=\box103
@@ -565,13 +717,17 @@ LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 Package hyperref Info: Link coloring OFF on input line 108.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nam
+eref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/ref
+count.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlest
-ring.sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlest
+ring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count305
@@ -621,20 +777,22 @@ LaTeX Info: Redefining \selectfont on input line 108.
 
 \langwohyphens=\language3
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
-sty
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg
+/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cf
-g
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/
+epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 20.
-(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.
+fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
@@ -649,8 +807,79 @@ Package pdftex.def Info: tufte_handout_files/figure-latex/unnamed-chunk-2-1.pdf
 (pdftex.def)             Requested size: 312.01648pt x 195.01028pt.
 [1
 
-{/Users/runner/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <.
-/tufte_handout_files/figure-latex/unnamed-chunk-2-1.pdf>]
+{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap
+/pdftex.map} <./tufte_handout_files/figure-latex/unnamed-chunk-2-1.pdf>]
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ##      symbol  ask_1_price                 price_percentile[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 0       ETH     1308.618  lower 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 1       BTC    34659.730  upper 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 2       ETH     1306.049  lower 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 3       BTC    34567.710  upper 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 4       ETH     1287.744  lower 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## ...     ...          ...                              ...[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 6995    BTC    11972.900  upper 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 6996    BTC    11985.890  upper 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 6997    BTC    11997.470  upper 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 6998    BTC    10686.880  upper 50th percentile of prices[
+] 
+ []
+
+
+Overfull \hbox (2.9231pt too wide) in paragraph at lines 200--200
+[]\T1/cmtt/m/n/10 ## 6999    ETH      357.844  lower 50th percentile of prices[
+] 
+ []
+
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -659,29 +888,30 @@ Package bibentry Warning: You have used \nobibliography*
 
 Class tufte-handout Warning: Proper spacing of small-caps letters has not been 
 set up.
-This message occurred on input line 170.
+This message occurred on input line 204.
 
 [2] (./tufte_handout.aux)
 Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 71ABEE6E9518A7D19E8647CF509E06FA;560.
  ) 
 Here is how much of TeX's memory you used:
- 13260 strings out of 481252
- 192585 string characters out of 5914732
- 511779 words of memory out of 5000000
- 29933 multiletter control sequences out of 15000+600000
+ 13261 strings out of 481252
+ 196263 string characters out of 5913865
+ 516850 words of memory out of 5000000
+ 29934 multiletter control sequences out of 15000+600000
  407830 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 92i,11n,92p,261b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit100
-0.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-ctt1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1000.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecti1200.600pk> </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecti1440.600pk>
-Output written on tufte_handout.pdf (2 pages, 64556 bytes).
+ 92i,11n,92p,284b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecit1000.600pk> <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> <c:/Users/runneradmin/AppData/Roam
+ing/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> <c:/Users/run
+neradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200
+.600pk> <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecti1440.600pk>
+Output written on tufte_handout.pdf (2 pages, 71488 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
+ 231 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
