@@ -176,19 +176,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-4"><a href="python-code-example.html#cb2-4"></a><span class="co"># Show the new Python dataframe</span></span>
 <span id="cb2-5"><a href="python-code-example.html#cb2-5"></a>df</span></code></pre></div>
 <pre><code>##         pair symbol  ask_1_price       date_time_utc
-## 0     BTCUSD    BTC    48680.590 2021-03-02 06:00:01
-## 1     ETHUSD    ETH     1556.906 2021-03-02 06:00:01
-## 2     BTCUSD    BTC    49141.460 2021-03-02 05:00:01
-## 3     ETHUSD    ETH     1576.133 2021-03-02 05:00:01
-## 4     BTCUSD    BTC    48960.000 2021-03-02 04:00:01
+## 0     BTCUSD    BTC    49080.000 2021-03-03 06:00:01
+## 1     ETHUSD    ETH     1543.154 2021-03-03 06:00:01
+## 2     BTCUSD    BTC    49104.600 2021-03-03 05:00:01
+## 3     ETHUSD    ETH     1539.917 2021-03-03 05:00:01
+## 4     BTCUSD    BTC    48703.070 2021-03-03 04:00:01
 ## ...      ...    ...          ...                 ...
-## 8913  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
-## 8914  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
-## 8915  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
-## 8916  BTCUSD    BTC    10686.880                 NaT
-## 8917  ETHUSD    ETH      357.844                 NaT
+## 8961  BTCUSD    BTC    11972.900 2020-08-10 06:03:50
+## 8962  BTCUSD    BTC    11985.890 2020-08-10 05:03:48
+## 8963  BTCUSD    BTC    11997.470 2020-08-10 04:32:55
+## 8964  BTCUSD    BTC    10686.880                 NaT
+## 8965  ETHUSD    ETH      357.844                 NaT
 ## 
-## [8918 rows x 4 columns]</code></pre>
+## [8966 rows x 4 columns]</code></pre>
 <div id="one-more-python-example" class="section level2">
 <h2><span class="header-section-number">3.1</span> One more Python example</h2>
 <p>The code below creates a new column <code>price_percentile</code> that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower):</p>
@@ -201,19 +201,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb4-7"><a href="python-code-example.html#cb4-7"></a><span class="co"># Show modified dataframe:</span></span>
 <span id="cb4-8"><a href="python-code-example.html#cb4-8"></a>df[[<span class="st">&#39;symbol&#39;</span>, <span class="st">&#39;ask_1_price&#39;</span>, <span class="st">&#39;price_percentile&#39;</span>]]</span></code></pre></div>
 <pre><code>##      symbol  ask_1_price                 price_percentile
-## 0       BTC    48680.590  upper 50th percentile of prices
-## 1       ETH     1556.906  lower 50th percentile of prices
-## 2       BTC    49141.460  upper 50th percentile of prices
-## 3       ETH     1576.133  lower 50th percentile of prices
-## 4       BTC    48960.000  upper 50th percentile of prices
+## 0       BTC    49080.000  upper 50th percentile of prices
+## 1       ETH     1543.154  lower 50th percentile of prices
+## 2       BTC    49104.600  upper 50th percentile of prices
+## 3       ETH     1539.917  lower 50th percentile of prices
+## 4       BTC    48703.070  upper 50th percentile of prices
 ## ...     ...          ...                              ...
-## 8913    BTC    11972.900  upper 50th percentile of prices
-## 8914    BTC    11985.890  upper 50th percentile of prices
-## 8915    BTC    11997.470  upper 50th percentile of prices
-## 8916    BTC    10686.880  upper 50th percentile of prices
-## 8917    ETH      357.844  lower 50th percentile of prices
+## 8961    BTC    11972.900  upper 50th percentile of prices
+## 8962    BTC    11985.890  upper 50th percentile of prices
+## 8963    BTC    11997.470  upper 50th percentile of prices
+## 8964    BTC    10686.880  upper 50th percentile of prices
+## 8965    ETH      357.844  lower 50th percentile of prices
 ## 
-## [8918 rows x 3 columns]</code></pre>
+## [8966 rows x 3 columns]</code></pre>
 
 </div>
 </div>
