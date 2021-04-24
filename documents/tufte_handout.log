@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.22)  23 APR 2021 06:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.23)  24 APR 2021 06:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,10 +418,25 @@ Package: placeins 2005/04/18  v 2.2
 \@tufte@caption@vertical@offset=\skip79
 \@tufte@float@contents@width=\skip80
 
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/mathp
+azo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/helve
+t.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc
 .sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
+LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
+12.
+
+(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl
+j.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+))
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcom
 p.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -521,8 +536,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 fonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
@@ -821,31 +836,31 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 0        ETH     2225.000  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 0        ETH     2316.761  lower 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 1        BTC    49504.880  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 1        BTC    50457.720  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 2        ETH     2208.537  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 2        ETH     2309.425  lower 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 3        BTC    49139.240  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 3        BTC    50424.920  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 4        ETH     2280.555  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 4        ETH     2298.055  lower 50th percentile of prices
 [] 
  []
 
@@ -857,31 +872,31 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 11405    BTC    11972.900  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 11453    BTC    11972.900  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 11406    BTC    11985.890  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 11454    BTC    11985.890  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 11407    BTC    11997.470  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 11455    BTC    11997.470  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 11408    BTC    10686.880  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 11456    BTC    10686.880  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 11409    ETH      357.844  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 11457    ETH      357.844  lower 50th percentile of prices
 [] 
  []
 
@@ -900,24 +915,25 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 71ABEE6E9518A7D19E8647CF509E06FA;560.
  ) 
 Here is how much of TeX's memory you used:
- 12741 strings out of 480954
- 190629 string characters out of 5905582
- 515348 words of memory out of 5000000
- 29704 multiletter control sequences out of 15000+600000
- 407830 words of font info for 35 fonts, out of 8000000 for 9000
+ 12861 strings out of 480954
+ 192492 string characters out of 5905582
+ 517656 words of memory out of 5000000
+ 29810 multiletter control sequences out of 15000+600000
+ 416530 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  92i,11n,91p,284b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
- <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecit1000.600pk> <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> <c:/Users/runneradmin/AppData/Roam
-ing/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> <c:/Users/run
-neradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200
-.600pk> <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecti1440.600pk>
-Output written on tufte_handout.pdf (2 pages, 80775 bytes).
+{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base
+/8r.enc} <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecit1000.600pk> <c:/Users/runneradmin/AppData/Roaming/TinyTeX/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk><c:/Users/runneradmin/AppData
+/Roaming/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/Users/runner
+admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c
+:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino
+/uplri8a.pfb>
+Output written on tufte_handout.pdf (2 pages, 89873 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
