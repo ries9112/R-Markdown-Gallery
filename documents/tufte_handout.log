@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.1)  2 JUN 2021 06:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.2)  3 JUN 2021 06:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-27>
+LaTeX2e <2021-06-01> pre-release-0 (develop 2021-6-2 branch)
+L3 programming layer <2021-06-01>
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/
 tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
@@ -23,12 +23,12 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 eyval.tex
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xk
 vutils.tex
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/ke
 yval.tex))
-\XKV@depth=\count181
+\XKV@depth=\count182
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xifthen/xift
@@ -38,20 +38,20 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.s
 ty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count182
-\calc@Bcount=\count183
+\calc@Acount=\count183
+\calc@Bcount=\count184
 \calc@Adimen=\dimen138
 \calc@Bdimen=\dimen139
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count184
+\calc@Ccount=\count185
 \calc@Cskip=\skip49
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.
 sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmt
 arg.sty
@@ -86,28 +86,28 @@ Package pdftexcmds Info: \pdfdraftmode found.
 tex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-\hw@charcount=\count185
-\hw@wordcount=\count186
-\hw@maxprintline=\count187
+\hw@charcount=\count186
+\hw@wordcount=\count187
+\hw@maxprintline=\count188
 )
 Class tufte-handout Info: Loading the base class `article'
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article
 .cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.
 clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@part=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 \bibindent=\dimen140
@@ -123,12 +123,12 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/tit
 lesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box47
+\ttl@box=\box50
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
 \ttl@plus=\dimen141
 \ttl@minus=\dimen142
-\ttl@toksa=\toks17
+\ttl@toksa=\toks18
 \titlewidth=\dimen143
 \titlewidthlast=\dimen144
 \titlewidthfirst=\dimen145
@@ -171,8 +171,8 @@ options.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count196
-\Hy@pagecounter=\count197
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1
 enc.def
@@ -193,7 +193,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 texcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count198
+\Hy@SavedSpaceFactor=\count199
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pue
 nc.def
@@ -210,7 +210,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count199
+\c@Hy@tempcnt=\count266
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -227,7 +227,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count266
+\Fld@menulength=\count267
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -242,12 +242,11 @@ LaTeX Info: Redefining \pageref on input line 6149.
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegsh
 i-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count267
-\c@Item=\count268
+\Hy@abspage=\count268
+\c@Item=\count269
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -261,8 +260,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count269
-\c@bookmark@seq@number=\count270
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfileche
 ck/rerunfilecheck.sty
@@ -280,13 +279,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/rag
 ged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
-
-(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/everysel/eve
-rysel.sty
-Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
-
-(c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/everysel/eve
-rysel-2011-10-28.sty))
 \CenteringLeftskip=\skip55
 \RaggedLeftLeftskip=\skip56
 \RaggedRightLeftskip=\skip57
@@ -310,9 +302,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 ex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count271
-\Gm@cntv=\count272
-\c@Gm@tempcnt=\count273
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
 \Gm@bindingoffset=\dimen151
 \Gm@wd@mp=\dimen152
 \Gm@odd@mp=\dimen153
@@ -321,13 +313,13 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen156
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
-\Gm@dimlist=\toks18
+\Gm@dimlist=\toks19
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/changepage/c
 hangepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count274
-\cp@tempcnt=\count275
+\c@cp@cntr=\count275
+\cp@tempcnt=\count276
 )
 \@tufte@overhang=\skip69
 \@tufte@fullwidth=\skip70
@@ -340,7 +332,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip73
 \plitemsep=\skip74
 \plparsep=\skip75
-\pl@lab=\toks19
+\pl@lab=\toks20
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textcase/tex
 tcase.sty
@@ -393,14 +385,14 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count276
+\c@NAT@ctr=\count277
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/biben
 try.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 No file tufte_handout.bbl.
-\c@@tufte@num@bibkeys=\count277
+\c@@tufte@num@bibkeys=\count278
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sauerj/optpa
 rams.sty
@@ -412,9 +404,9 @@ Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 ceins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-\@tufte@margin@floatbox=\box48
-\@tufte@figure@box=\box49
-\@tufte@caption@box=\box50
+\@tufte@margin@floatbox=\box51
+\@tufte@figure@box=\box52
+\@tufte@caption@box=\box53
 \@tufte@caption@vertical@offset=\skip79
 \@tufte@float@contents@width=\skip80
 
@@ -429,7 +421,7 @@ Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS)
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc
 .sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
 12.
 
@@ -460,30 +452,27 @@ rs
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multic
 ol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count278
-\mult@box=\box51
+\c@tracingmulticols=\count279
+\mult@box=\box54
 \multicol@leftmargin=\dimen159
-\c@unbalance=\count279
-\c@collectmore=\count280
-\doublecol@number=\count281
-\multicoltolerance=\count282
-\multicolpretolerance=\count283
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
 \full@width=\dimen160
 \page@free=\dimen161
 \premulticols=\dimen162
 \postmulticols=\dimen163
 \multicolsep=\skip91
 \multicolbaselineskip=\skip92
-\partial@page=\box52
-\last@line=\box53
+\partial@page=\box55
+\last@line=\box56
 \maxbalancingoverflow=\dimen164
-\mult@rightbox=\box54
-\mult@grightbox=\box55
-\mult@gfirstbox=\box56
-\mult@firstbox=\box57
-\@tempa=\box58
-\@tempa=\box59
-\@tempa=\box60
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@gfirstbox=\box59
+\mult@firstbox=\box60
 \@tempa=\box61
 \@tempa=\box62
 \@tempa=\box63
@@ -518,15 +507,18 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count284
-\c@columnbadness=\count285
-\c@finalcolumnbadness=\count286
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\c@minrows=\count285
+\c@columnbadness=\count286
+\c@finalcolumnbadness=\count287
 \last@try=\dimen165
 \multicolovershoot=\dimen166
 \multicolundershoot=\dimen167
-\mult@nat@firstbox=\box95
-\colbreak@box=\box96
-\mc@col@check@num=\count287
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count288
 )))
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ams
 symb.sty
@@ -535,7 +527,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ams
 fonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks20
+\@emptytoks=\toks21
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -555,7 +547,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsg
 en.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen168
 ))
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsb
@@ -567,41 +559,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 pn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count288
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count289
-\leftroot@=\count290
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count291
-\DOTSCASE@=\count292
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box97
-\strutbox@=\box98
+\Mathstrutbox@=\box100
+\strutbox@=\box101
 \big@size=\dimen170
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count293
-\c@MaxMatrixCols=\count294
+\macc@depth=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip17
-\c@parentequation=\count295
-\dspbrk@lvl=\count296
-\tag@help=\toks22
-\row@=\count297
-\column@=\count298
-\maxfields@=\count299
-\andhelp@=\toks23
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
+\tag@help=\toks23
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
+\andhelp@=\toks24
 \eqnshift@=\dimen171
 \alignsep@=\dimen172
 \tagshift@=\dimen173
 \tagwidth@=\dimen174
 \totwidth@=\dimen175
 \lineht@=\dimen176
-\@envbody=\toks24
+\@envbody=\toks25
 \multlinegap=\skip94
 \multlinetaggap=\skip95
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
@@ -618,21 +610,21 @@ Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc
 .sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputen
 c.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks26
-\inpenc@posthook=\toks27
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/gra
 phicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/gra
 phics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/tri
 g.sty
@@ -642,7 +634,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 /graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen177
 \Gin@req@width=\dimen178
@@ -660,12 +652,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen186
 \cmidrulekern=\dimen187
 \defaultaddspace=\dimen188
-\@cmidla=\count300
-\@cmidlb=\count301
+\@cmidla=\count301
+\@cmidlb=\count302
 \@aboverulesep=\dimen189
 \@belowrulesep=\dimen190
-\@thisruleclass=\count302
-\@lastruleclass=\count303
+\@thisruleclass=\count303
+\@lastruleclass=\count304
 \@thisrulewidth=\dimen191
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/units/units.
@@ -682,23 +674,23 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fan
 cyvrb.sty
 Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count304
+\FV@CodeLineNo=\count305
 \FV@InFile=\read2
-\FV@TabBox=\box99
-\c@FancyVerbLine=\count305
-\FV@StepNumber=\count306
+\FV@TabBox=\box102
+\c@FancyVerbLine=\count306
+\FV@StepNumber=\count307
 \FV@OutFile=\write3
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.
 sty
-\UL@box=\box100
-\UL@hyphenbox=\box101
+\UL@box=\box103
+\UL@hyphenbox=\box104
 \UL@skip=\skip99
-\UL@hook=\toks28
+\UL@hook=\toks29
 \UL@height=\dimen192
-\UL@pe=\count307
+\UL@pe=\count308
 \UL@pixel=\dimen193
-\ULC@box=\box102
+\ULC@box=\box105
 Package: ulem 2019/11/18
 \ULdepth=\dimen194
 )
@@ -713,8 +705,8 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3
 backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count308
-\l__pdf_internal_box=\box103
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box106
 ) (./tufte_handout.aux)
 \openout1 = `tufte_handout.aux'.
 
@@ -750,7 +742,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count309
+\c@section@level=\count310
 )
 LaTeX Info: Redefining \ref on input line 108.
 LaTeX Info: Redefining \pageref on input line 108.
@@ -759,8 +751,6 @@ LaTeX Info: Redefining \nameref on input line 108.
 \@outlinefile=\write4
 \openout4 = `tufte_handout.out'.
 
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 108.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -836,31 +826,31 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 0        ETH     2640.367  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 0        ETH     2817.237  lower 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 1        BTC    36815.290  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 1        BTC    38789.510  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 2        BTC    36669.160  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 2        ETH     2767.812  lower 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 3        ETH     2625.964  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 3        BTC    37976.570  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 4        ETH     2617.467  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 4        ETH     2726.214  lower 50th percentile of prices
 [] 
  []
 
@@ -872,31 +862,31 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 13319    BTC    11972.900  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 13367    BTC    11972.900  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 13320    BTC    11985.890  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 13368    BTC    11985.890  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 13321    BTC    11997.470  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 13369    BTC    11997.470  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 13322    BTC    10686.880  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 13370    BTC    10686.880  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 13323    ETH      357.844  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 13371    ETH      357.844  lower 50th percentile of prices
 [] 
  []
 
@@ -915,13 +905,13 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 71ABEE6E9518A7D19E8647CF509E06FA;560.
  ) 
 Here is how much of TeX's memory you used:
- 12978 strings out of 480714
- 195420 string characters out of 5901597
- 522727 words of memory out of 5000000
- 30167 multiletter control sequences out of 15000+600000
+ 13033 strings out of 480517
+ 196278 string characters out of 5898339
+ 528975 words of memory out of 5000000
+ 30429 multiletter control sequences out of 15000+600000
  416530 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 81i,11n,83p,284b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,11n,83p,261b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base
 /8r.enc} <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecit1000.600pk> <c:/Users/runneradmin/AppData/Roaming/TinyTeX/tex
@@ -930,9 +920,9 @@ mf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk><c:/Users/runneradmin/AppData
 admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c
 :/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on tufte_handout.pdf (2 pages, 93222 bytes).
+Output written on tufte_handout.pdf (2 pages, 95247 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
