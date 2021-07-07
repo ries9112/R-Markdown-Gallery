@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.5)  6 JUL 2021 06:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.7.6)  7 JUL 2021 06:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -122,7 +122,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/tit
 lesec.sty
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box50
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
@@ -135,7 +135,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/tit
 letoc.sty
-Package: titletoc 2019/10/16 v2.13 TOC entries
+Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen146
 )
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyp
@@ -826,31 +826,31 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 0        ETH     2320.066  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 0        BTC    34822.380  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 1        BTC    34790.080  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 1        ETH     2384.943  lower 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 2        ETH     2318.770  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 2        BTC    34715.600  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 3        BTC    34661.420  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 3        ETH     2392.826  lower 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 4        BTC    33907.900  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 4        ETH     2340.197  lower 50th percentile of prices
 [] 
  []
 
@@ -862,31 +862,31 @@ Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 14951    BTC    11972.900  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 14999    BTC    11972.900  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 14952    BTC    11985.890  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 15000    BTC    11985.890  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 14953    BTC    11997.470  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 15001    BTC    11997.470  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 14954    BTC    10686.880  upper 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 15002    BTC    10686.880  upper 50th percentile of prices
 [] 
  []
 
 
 Overfull \hbox (8.17181pt too wide) in paragraph at lines 200--200
-[]\T1/cmtt/m/n/10 ## 14955    ETH      357.844  lower 50th percentile of prices
+[]\T1/cmtt/m/n/10 ## 15003    ETH      357.844  lower 50th percentile of prices
 [] 
  []
 
@@ -907,7 +907,7 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 Here is how much of TeX's memory you used:
  13035 strings out of 480477
  196321 string characters out of 5897329
- 529978 words of memory out of 5000000
+ 530130 words of memory out of 5000000
  30469 multiletter control sequences out of 15000+600000
  416530 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -920,7 +920,7 @@ mf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk><c:/Users/runneradmin/AppData
 admin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c
 :/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on tufte_handout.pdf (2 pages, 99449 bytes).
+Output written on tufte_handout.pdf (2 pages, 99433 bytes).
 PDF statistics:
  160 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
