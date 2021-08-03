@@ -106,7 +106,7 @@
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-\subtitle{Last run on: 2021-07-16 06:15:18}
+\subtitle{Last run on: 2021-08-03 06:12:14}
 \author{}
 \date{\vspace{-2.5em}}
 
@@ -126,7 +126,7 @@ create a visualization using the already loaded dataset
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{htmlwidget-49bc26172a7bfceeb0e7}{}
+\hypertarget{htmlwidget-7fa0d6a7721210a77737}{}
 
 \hypertarget{price-chart---ethereum}{%
 \section{Price Chart - Ethereum}\label{price-chart---ethereum}}
@@ -136,68 +136,6 @@ create a visualization using the already loaded dataset
 \hypertarget{python-code-example}{%
 \section{Python Code Example}\label{python-code-example}}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd}
-\CommentTok{# Create the Python object from R}
-\NormalTok{df }\OperatorTok{=}\NormalTok{ r.cryptodata}
-\CommentTok{# Show the new Python dataframe}
-\NormalTok{df}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-##          pair symbol  ask_1_price       date_time_utc
-## 0      ETHUSD    ETH     1928.872 2021-07-16 06:00:01
-## 1      BTCUSD    BTC    31804.460 2021-07-16 06:00:00
-## 2      ETHUSD    ETH     1947.025 2021-07-16 05:00:01
-## 3      BTCUSD    BTC    31916.240 2021-07-16 05:00:00
-## 4      ETHUSD    ETH     1949.451 2021-07-16 04:00:01
-## ...       ...    ...          ...                 ...
-## 15244  BTCUSD    BTC    11844.000 2020-08-17 04:03:55
-## 15245  BTCUSD    BTC    11855.070 2020-08-17 03:03:54
-## 15246  BTCUSD    BTC    11838.670 2020-08-17 02:04:02
-## 15247  BTCUSD    BTC    11825.050 2020-08-17 01:03:53
-## 15248  BTCUSD    BTC    11925.450 2020-08-17 00:03:56
-## 
-## [15249 rows x 4 columns]
-\end{verbatim}
-
-\hypertarget{one-more-python-example}{%
-\section{One more Python example}\label{one-more-python-example}}
-
-The code below creates a new column \texttt{price\_percentile} that
-specifies if the price for the row was in the upper or lower 50th
-percentile of prices (BTC should be upper and ETH lower):
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\ImportTok{import}\NormalTok{ numpy }\ImportTok{as}\NormalTok{ np}
-\CommentTok{# Create a new column based on the ask_1_price value:}
-\NormalTok{df[}\StringTok{'price_percentile'}\NormalTok{] }\OperatorTok{=}\NormalTok{ np.where(df[}\StringTok{'ask_1_price'}\NormalTok{] }\OperatorTok{>} 
-\NormalTok{                                  np.percentile(df[}\StringTok{'ask_1_price'}\NormalTok{], }\DecValTok{50}\NormalTok{),}
-                            \StringTok{'upper 50th percentile of prices'}\NormalTok{, }
-                            \StringTok{'lower 50th percentile of prices'}\NormalTok{)}
-\CommentTok{# Show modified dataframe:}
-\NormalTok{df[[}\StringTok{'symbol'}\NormalTok{, }\StringTok{'ask_1_price'}\NormalTok{, }\StringTok{'price_percentile'}\NormalTok{]]}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-##       symbol  ask_1_price                 price_percentile
-## 0        ETH     1928.872  lower 50th percentile of prices
-## 1        BTC    31804.460  upper 50th percentile of prices
-## 2        ETH     1947.025  lower 50th percentile of prices
-## 3        BTC    31916.240  upper 50th percentile of prices
-## 4        ETH     1949.451  lower 50th percentile of prices
-## ...      ...          ...                              ...
-## 15244    BTC    11844.000  upper 50th percentile of prices
-## 15245    BTC    11855.070  upper 50th percentile of prices
-## 15246    BTC    11838.670  upper 50th percentile of prices
-## 15247    BTC    11825.050  upper 50th percentile of prices
-## 15248    BTC    11925.450  upper 50th percentile of prices
-## 
-## [15249 rows x 3 columns]
-\end{verbatim}
+removed for now because of package install automation issues
 
 \end{document}

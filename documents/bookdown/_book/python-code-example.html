@@ -143,9 +143,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
 <li class="chapter" data-level="2" data-path="price-chart-ethereum.html"><a href="price-chart-ethereum.html"><i class="fa fa-check"></i><b>2</b> Price Chart - Ethereum</a></li>
-<li class="chapter" data-level="3" data-path="python-code-example.html"><a href="python-code-example.html"><i class="fa fa-check"></i><b>3</b> Python Code Example</a><ul>
-<li class="chapter" data-level="3.1" data-path="python-code-example.html"><a href="python-code-example.html#one-more-python-example"><i class="fa fa-check"></i><b>3.1</b> One more Python example</a></li>
-</ul></li>
+<li class="chapter" data-level="3" data-path="python-code-example.html"><a href="python-code-example.html"><i class="fa fa-check"></i><b>3</b> Python Code Example</a></li>
 <li class="chapter" data-level="4" data-path="bookdown-examples.html"><a href="bookdown-examples.html"><i class="fa fa-check"></i><b>4</b> bookdown Examples</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -170,52 +168,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="python-code-example" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Python Code Example</h1>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="python-code-example.html#cb2-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb2-2"><a href="python-code-example.html#cb2-2"></a><span class="co"># Create the Python object from R</span></span>
-<span id="cb2-3"><a href="python-code-example.html#cb2-3"></a>df <span class="op">=</span> r.cryptodata</span>
-<span id="cb2-4"><a href="python-code-example.html#cb2-4"></a><span class="co"># Show the new Python dataframe</span></span>
-<span id="cb2-5"><a href="python-code-example.html#cb2-5"></a>df</span></code></pre></div>
-<pre><code>##          pair symbol  ask_1_price       date_time_utc
-## 0      ETHUSD    ETH     1928.872 2021-07-16 06:00:01
-## 1      BTCUSD    BTC    31804.460 2021-07-16 06:00:00
-## 2      ETHUSD    ETH     1947.025 2021-07-16 05:00:01
-## 3      BTCUSD    BTC    31916.240 2021-07-16 05:00:00
-## 4      ETHUSD    ETH     1949.451 2021-07-16 04:00:01
-## ...       ...    ...          ...                 ...
-## 15244  BTCUSD    BTC    11844.000 2020-08-17 04:03:55
-## 15245  BTCUSD    BTC    11855.070 2020-08-17 03:03:54
-## 15246  BTCUSD    BTC    11838.670 2020-08-17 02:04:02
-## 15247  BTCUSD    BTC    11825.050 2020-08-17 01:03:53
-## 15248  BTCUSD    BTC    11925.450 2020-08-17 00:03:56
-## 
-## [15249 rows x 4 columns]</code></pre>
-<div id="one-more-python-example" class="section level2">
-<h2><span class="header-section-number">3.1</span> One more Python example</h2>
-<p>The code below creates a new column <code>price_percentile</code> that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower):</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="python-code-example.html#cb4-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb4-2"><a href="python-code-example.html#cb4-2"></a><span class="co"># Create a new column based on the ask_1_price value:</span></span>
-<span id="cb4-3"><a href="python-code-example.html#cb4-3"></a>df[<span class="st">&#39;price_percentile&#39;</span>] <span class="op">=</span> np.where(df[<span class="st">&#39;ask_1_price&#39;</span>] <span class="op">&gt;</span> </span>
-<span id="cb4-4"><a href="python-code-example.html#cb4-4"></a>                                  np.percentile(df[<span class="st">&#39;ask_1_price&#39;</span>], <span class="dv">50</span>),</span>
-<span id="cb4-5"><a href="python-code-example.html#cb4-5"></a>                            <span class="st">&#39;upper 50th percentile of prices&#39;</span>, </span>
-<span id="cb4-6"><a href="python-code-example.html#cb4-6"></a>                            <span class="st">&#39;lower 50th percentile of prices&#39;</span>)</span>
-<span id="cb4-7"><a href="python-code-example.html#cb4-7"></a><span class="co"># Show modified dataframe:</span></span>
-<span id="cb4-8"><a href="python-code-example.html#cb4-8"></a>df[[<span class="st">&#39;symbol&#39;</span>, <span class="st">&#39;ask_1_price&#39;</span>, <span class="st">&#39;price_percentile&#39;</span>]]</span></code></pre></div>
-<pre><code>##       symbol  ask_1_price                 price_percentile
-## 0        ETH     1928.872  lower 50th percentile of prices
-## 1        BTC    31804.460  upper 50th percentile of prices
-## 2        ETH     1947.025  lower 50th percentile of prices
-## 3        BTC    31916.240  upper 50th percentile of prices
-## 4        ETH     1949.451  lower 50th percentile of prices
-## ...      ...          ...                              ...
-## 15244    BTC    11844.000  upper 50th percentile of prices
-## 15245    BTC    11855.070  upper 50th percentile of prices
-## 15246    BTC    11838.670  upper 50th percentile of prices
-## 15247    BTC    11825.050  upper 50th percentile of prices
-## 15248    BTC    11925.450  upper 50th percentile of prices
-## 
-## [15249 rows x 3 columns]</code></pre>
+<p>Temporary disabled for install issues around automation</p>
+<!-- ```{python} -->
+<!-- import pandas as pd -->
+<!-- # Create the Python object from R -->
+<!-- df = r.cryptodata -->
+<!-- # Show the new Python dataframe -->
+<!-- df -->
+<!-- ``` -->
+<!-- ## One more Python example -->
+<!-- The code below creates a new column `price_percentile` that specifies if the price for the row was in the upper or lower 50th percentile of prices (BTC should be upper and ETH lower): -->
+<!-- ```{python} -->
+<!-- import numpy as np -->
+<!-- # Create a new column based on the ask_1_price value: -->
+<!-- df['price_percentile'] = np.where(df['ask_1_price'] >  -->
+<!--                                   np.percentile(df['ask_1_price'], 50), -->
+<!--                             'upper 50th percentile of prices',  -->
+<!--                             'lower 50th percentile of prices') -->
+<!-- # Show modified dataframe: -->
+<!-- df[['symbol', 'ask_1_price', 'price_percentile']] -->
+<!-- ``` -->
 
-</div>
 </div>
             </section>
 
