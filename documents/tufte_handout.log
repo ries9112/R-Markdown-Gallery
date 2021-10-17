@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.15)  16 OCT 2021 06:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.16)  17 OCT 2021 06:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -673,7 +673,7 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 ))
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fan
 cyvrb.sty
-Package: fancyvrb 2021/08/12 v3.8 verbatim text (tvz,hv)
+Package: fancyvrb 2021/10/15 v3.9 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count305
 \FV@InFile=\read2
 \FV@TabBox=\box102
@@ -831,7 +831,7 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 Here is how much of TeX's memory you used:
  13030 strings out of 480559
  196262 string characters out of 5901527
- 518435 words of memory out of 5000000
+ 518447 words of memory out of 5000000
  30386 multiletter control sequences out of 15000+600000
  416215 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -841,7 +841,7 @@ ppen/ec/ectt1000.600pk>{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist
 /fonts/enc/dvips/base/8r.enc}<c:/Users/runneradmin/AppData/Roaming/TinyTeX/texm
 f-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roamin
 g/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 76751 bytes).
+Output written on tufte_handout.pdf (1 page, 76840 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
