@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.3)  3 JUN 2022 06:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.4)  4 JUN 2022 06:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-05-30> (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
+L3 programming layer <2022-06-02> (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-common.def
 File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
@@ -504,7 +504,7 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseTextstyle=\skip97
 \L@UnitsRaiseScriptstyle=\skip98
 )) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2022/05/26 4.2a verbatim text (tvz,hv)
+Package: fancyvrb 2022/06/02 4.3 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count309
 \FV@InFile=\read2
 \FV@TabBox=\box101
@@ -630,13 +630,13 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 Here is how much of TeX's memory you used:
  13831 strings out of 480253
  225576 string characters out of 5892199
- 521109 words of memory out of 5000000
+ 521136 words of memory out of 5000000
  31489 multiletter control sequences out of 15000+600000
  482044 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  93i,11n,94p,261b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 82846 bytes).
+Output written on tufte_handout.pdf (1 page, 82797 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
