@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  13 JUN 2022 06:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.14)  14 JUN 2022 06:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
-LaTeX2e <2022-06-01> pre-release-0 (develop 2022-6-13 branch)
+LaTeX2e <2022-06-01> pre-release-0 (develop 2022-6-14 branch)
 L3 programming layer <2022-06-02> (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-common.def
@@ -246,7 +246,7 @@ Class tufte-handout Warning: Couldn't locate `soul' package
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
@@ -254,20 +254,20 @@ Package xcolor Info: Package option `usenames' ignored on input line 218.
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+File: svgnam.def 2022/06/12 v2.14 Predefined colors according to SVG 1.1 (UK)
 )) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
@@ -636,15 +636,15 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 13842 strings out of 480000
- 225654 string characters out of 5886352
- 528530 words of memory out of 5000000
- 31753 multiletter control sequences out of 15000+600000
+ 13861 strings out of 480000
+ 226207 string characters out of 5886352
+ 528786 words of memory out of 5000000
+ 31769 multiletter control sequences out of 15000+600000
  482044 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  93i,11n,94p,261b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 82274 bytes).
+Output written on tufte_handout.pdf (1 page, 81975 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
