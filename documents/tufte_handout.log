@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.11)  11 JUL 2022 06:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.12)  12 JUL 2022 06:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,11 +182,11 @@ with kernel methods
 \Fld@listcount=\count274
 \c@bookmark@seq@number=\count275
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip54
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
@@ -238,7 +238,8 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plparsep=\skip75
 \pl@lab=\toks20
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2022/06/12 v1.02 Text only upper/lower case changing (DPC)
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
 )
 
 Class tufte-handout Warning: Couldn't locate `soul' package
@@ -636,15 +637,15 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 13872 strings out of 479984
- 226449 string characters out of 5885934
- 529607 words of memory out of 5000000
- 31796 multiletter control sequences out of 15000+600000
+ 13866 strings out of 479984
+ 226359 string characters out of 5885934
+ 529396 words of memory out of 5000000
+ 31790 multiletter control sequences out of 15000+600000
  482044 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  93i,11n,94p,266b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 83130 bytes).
+Output written on tufte_handout.pdf (1 page, 82888 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
