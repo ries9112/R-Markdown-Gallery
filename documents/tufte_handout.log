@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.9)  10 MAR 2023 06:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.10)  11 MAR 2023 06:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,14 +638,14 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  13888 strings out of 477984
- 226921 string characters out of 5837250
+ 226921 string characters out of 5837249
  1854382 words of memory out of 5000000
  33809 multiletter control sequences out of 15000+600000
  525072 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  96i,11n,93p,266b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk>{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 81171 bytes).
+Output written on tufte_handout.pdf (1 page, 81083 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
