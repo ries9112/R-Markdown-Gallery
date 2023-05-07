@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.6)  6 MAY 2023 06:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  7 MAY 2023 06:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-04-20> (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
+L3 programming layer <2023-05-05> (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-common.def
 File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
@@ -638,10 +638,10 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 14174 strings out of 477961
- 229954 string characters out of 5836431
- 1855068 words of memory out of 5000000
- 34121 multiletter control sequences out of 15000+600000
+ 14174 strings out of 478007
+ 229954 string characters out of 5837479
+ 1855242 words of memory out of 5000000
+ 34075 multiletter control sequences out of 15000+600000
  525072 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  96i,11n,93p,266b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
