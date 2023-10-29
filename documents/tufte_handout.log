@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.27)  28 OCT 2023 06:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.29)  29 OCT 2023 06:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -79,7 +79,7 @@ Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2023/10/17 v2.15 Sectioning titles
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box51
 \beforetitleunit=\skip53
 \aftertitleunit=\skip54
@@ -90,7 +90,7 @@ Package: titlesec 2023/10/17 v2.15 Sectioning titles
 \titlewidthlast=\dimen146
 \titlewidthfirst=\dimen147
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titletoc.sty
-Package: titletoc 2023/10/17 v2.15 TOC entries
+Package: titletoc 2023/10/27 v2.16 TOC entries
 \ttl@leftsep=\dimen148
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-10-21 v7.01c Hypertext links for LaTeX
@@ -644,10 +644,10 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 14004 strings out of 476357
- 222128 string characters out of 5797301
+ 14002 strings out of 476357
+ 222090 string characters out of 5797301
  1928036 words of memory out of 5000000
- 35566 multiletter control sequences out of 15000+600000
+ 35564 multiletter control sequences out of 15000+600000
  570854 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  96i,11n,96p,266b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
