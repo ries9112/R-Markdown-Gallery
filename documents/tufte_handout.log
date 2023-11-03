@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.2)  2 NOV 2023 06:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.3)  3 NOV 2023 06:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-10-23>
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-common.def
@@ -21,7 +21,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count187
 \calc@Bcount=\count188
 \calc@Adimen=\dimen140
@@ -637,22 +637,22 @@ Package bibentry Warning: You have used \nobibliography*
 
 {c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} <./tufte_handout_files/figure-latex/unnamed-chunk-2-1.pdf>] (./tufte_handout.aux)
  ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-10-23>
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 14009 strings out of 476357
- 222345 string characters out of 5797302
- 1928036 words of memory out of 5000000
- 35571 multiletter control sequences out of 15000+600000
+ 14008 strings out of 476231
+ 222332 string characters out of 5794644
+ 1928533 words of memory out of 5000000
+ 35696 multiletter control sequences out of 15000+600000
  570854 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  96i,11n,96p,266b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 79750 bytes).
+Output written on tufte_handout.pdf (1 page, 79752 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
