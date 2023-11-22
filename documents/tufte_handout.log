@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.21)  21 NOV 2023 06:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  22 NOV 2023 06:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,8 +646,8 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 14005 strings out of 476226
- 223443 string characters out of 5794566
+ 14006 strings out of 476226
+ 223521 string characters out of 5794560
  1928558 words of memory out of 5000000
  35698 multiletter control sequences out of 15000+600000
  570854 words of font info for 52 fonts, out of 8000000 for 9000
