@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.13)  13 JUN 2024 06:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.14)  14 JUN 2024 06:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
-LaTeX2e <2024-06-01>
+LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
@@ -639,7 +639,7 @@ Package bibentry Warning: You have used \nobibliography*
 
 {c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} <./tufte_handout_files/figure-latex/unnamed-chunk-2-1.pdf>] (./tufte_handout.aux)
  ***********
-LaTeX2e <2024-06-01>
+LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
@@ -648,7 +648,7 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 Here is how much of TeX's memory you used:
  14108 strings out of 475559
  224777 string characters out of 5775833
- 1930894 words of memory out of 5000000
+ 1930908 words of memory out of 5000000
  36471 multiletter control sequences out of 15000+600000
  570854 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
