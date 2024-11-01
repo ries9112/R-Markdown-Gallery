@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  31 OCT 2024 06:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.1)  1 NOV 2024 06:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,7 +93,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 Package: titletoc 2023/10/27 v2.16 TOC entries
 \ttl@leftsep=\dimen149
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+Package: hyperref 2024-10-30 v7.01k Hypertext links for LaTeX
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -122,7 +122,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count277
 \Hy@pagecounter=\count278
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-10-30 v7.01k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -130,7 +130,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count279
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-10-30 v7.01k Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -174,7 +174,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+File: hpdftex.def 2024-10-30 v7.01k Hyperref driver for pdfTeX
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
@@ -646,15 +646,15 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 (rerunfilecheck)             Checksum: 0E595B4E665DAF0667A1D2C5DCA9170B;392.
  ) 
 Here is how much of TeX's memory you used:
- 14106 strings out of 475536
- 224741 string characters out of 5775320
- 633076 words of memory out of 5000000
- 36492 multiletter control sequences out of 15000+600000
+ 14109 strings out of 475536
+ 224789 string characters out of 5775321
+ 633108 words of memory out of 5000000
+ 36495 multiletter control sequences out of 15000+600000
  570854 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  96i,11n,97p,266b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tufte_handout.pdf (1 page, 79752 bytes).
+Output written on tufte_handout.pdf (1 page, 79751 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
