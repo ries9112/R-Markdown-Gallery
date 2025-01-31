@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.30)  30 JAN 2025 06:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.31)  31 JAN 2025 06:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tufte_handout.tex
 (./tufte_handout.tex
-LaTeX2e <2024-11-01> patch level 1
+LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2024-12-25>
 (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-handout.cls
 Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
@@ -541,7 +541,7 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 Package: ulem 2019/11/18
 \ULdepth=\dimen197
 ) (c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/morefloats/morefloats.sty
-Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+Package: morefloats 2025/01/28 v1.1a Raise limit of unprocessed floats (HMM)
 Package morefloats Info: Maximum number of possible floats asked for: 36
 (morefloats)             (i.e. 18 more floats).
 (morefloats)             LaTeX might run out of memory before this
@@ -641,7 +641,7 @@ Package bibentry Warning: You have used \nobibliography*
 
 {c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/runneradmin/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} <./tufte_handout_files/figure-latex/unnamed-chunk-2-1.pdf>] (./tufte_handout.aux)
  ***********
-LaTeX2e <2024-11-01> patch level 1
+LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
@@ -650,7 +650,7 @@ Package rerunfilecheck Info: File `tufte_handout.out' has not changed.
 Here is how much of TeX's memory you used:
  14220 strings out of 475177
  227331 string characters out of 5763895
- 639669 words of memory out of 5000000
+ 639685 words of memory out of 5000000
  36954 multiletter control sequences out of 15000+600000
  571622 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
